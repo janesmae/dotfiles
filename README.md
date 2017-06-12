@@ -1,2 +1,4 @@
-# dotfiles
-My .files including macos, vim, zsh, git, and tmux configurations
+# Dotfiles
+
+My .files including macos, vim, zsh, git, and tmux configurations.
+
