@@ -11,6 +11,7 @@
 	co = checkout
 	cm = commit --message
 	s = status
+	d = diff
 
 [color]
 	branch = always
