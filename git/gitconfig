@@ -7,4 +7,5 @@
 [github]
     user = janesmae
 
-
+[alias]
+    co = checkout

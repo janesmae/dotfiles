@@ -1,5 +1,11 @@
+## General gitignore ##
+
 *~
 ._*
 .DS_Store
-.idea
-node_modules
+Thumbs.db
+*.swp
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
