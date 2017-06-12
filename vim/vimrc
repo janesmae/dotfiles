@@ -2,11 +2,11 @@
 
 " Basics
 
-set nocompatible            " not compatible with vi
-set autoread                " detect when a file is changed
+set nocompatible			" not compatible with vi
+set autoread				" detect when a file is changed
 set textwidth=120
-set number                  " Display current line number
-set relativenumber          " Display relative line numbers
+set number					" Display current line number
+set relativenumber			" Display relative line numbers
 
 " Usability ;)
 
@@ -14,7 +14,7 @@ syntax on
 set cursorline
 set background=dark
 highlight clear SignColumn
-set mouse=a                 " Make mouse usable
+set mouse=a					" Make mouse usable
 nnoremap ; :
 
 " Invisible characters
@@ -31,7 +31,7 @@ set smarttab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
-set expandtab
+set noexpandtab				" Use tabs instead of spaces
 
 " Bells
 

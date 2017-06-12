@@ -1,50 +1,50 @@
 ## General gitconfig ##
 
 [user]
-    name = "Jaan Janesmae"
-    email = "git@janesmae.com"
+	name = "Jaan Janesmae"
+	email = "git@janesmae.com"
 
 [github]
-    user = janesmae
+	user = janesmae
 
 [alias]
-    co = checkout
-    cm = commit --message
-    s = status
+	co = checkout
+	cm = commit --message
+	s = status
 
 [color]
-    branch = always
-    diff = always
-    grep = always
-    interactive = always
-    pager = true
-    showbranch = auto
-    status = auto
-    ui = always
+	branch = always
+	diff = always
+	grep = always
+	interactive = always
+	pager = true
+	showbranch = auto
+	status = auto
+	ui = always
 
 [color "interactive"]
-    error = red bold
+	error = red bold
 
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 
 [color "diff"]
-    meta = yellow
-    frag = magenta
-    old = red
-    new = green
-    whitespace = white reverse
+	meta = yellow
+	frag = magenta
+	old = red
+	new = green
+	whitespace = white reverse
 
 [color "status"]
-    added = yellow
-    changed = red
-    untracked = cyan
-    branch = magenta
+	added = yellow
+	changed = red
+	untracked = cyan
+	branch = magenta
 
 [push]
-    default = simple
+	default = simple
 
 [url "git@github.com:"]
-    insteadof = github:
+	insteadof = github:
