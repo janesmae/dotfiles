@@ -1,0 +1,25 @@
+"" General vim config ""
+
+" Basics
+
+set nocompatible            " not compatible with vi
+set autoread                " detect when a file is changed
+set textwidth=120
+set number                  " Display current line number
+set relativenumber          " Display relative line numbers
+
+" Invisible characters
+
+set list
+set listchars=tab:→\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
+set showbreak=↪
+
+" Tab control
+
+set autoindent              "
+set smartindent             "
+set smarttab                "
+set shiftwidth=4            "
+set softtabstop=4           "
+set tabstop=4               "
+set expandtab               "
