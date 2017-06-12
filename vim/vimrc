@@ -2,11 +2,26 @@
 
 " Basics
 
-set nocompatible			" not compatible with vi
-set autoread				" detect when a file is changed
+set nocompatible
+set autoread				" Detect when a file is changed
 set textwidth=120
+set encoding=utf-8 nobomb
+set binary
+set noeol					" Remove empty newline at the end of the file
+set title
+
 set number					" Display current line number
 set relativenumber			" Display relative line numbers
+
+let mapleader=","			" Change mapleader
+
+" Centralize backups, swapfiles and undo history
+
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+	set undodir=~/.vim/undo
+endif
 
 " Usability ;)
 
@@ -14,8 +29,9 @@ syntax on
 set cursorline
 set background=dark
 highlight clear SignColumn
-set mouse=a					" Make mouse usable
 nnoremap ; :
+
+set mouse=a					" Make mouse usable
 
 " Invisible characters
 
@@ -51,4 +67,3 @@ set smartcase
 set scrolloff=4
 set sidescrolloff=15
 set sidescroll=1
-
