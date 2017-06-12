@@ -14,7 +14,7 @@ syntax on
 set cursorline
 set background=dark
 highlight clear SignColumn
-
+set mouse=a                 " Make mouse usable
 nnoremap ; :
 
 " Invisible characters
