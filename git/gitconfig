@@ -1,0 +1,10 @@
+## General gitconfig ##
+
+[user]
+    name = "Jaan Janesmae"
+    email = "git@janesmae.com"
+
+[github]
+    user = janesmae
+
+
