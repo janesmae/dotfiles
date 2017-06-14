@@ -4,6 +4,7 @@
 ._*
 .DS_Store
 Thumbs.db
+Desktop.ini
 *.swp
 
 # Files that might appear on external disk

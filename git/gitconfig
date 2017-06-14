@@ -12,6 +12,10 @@
 	cm = commit --message
 	s = status
 	d = diff
+	l = log --pretty=oneline -n 20 --graph --abbrev-commi
+
+[core]
+	excludesfile = ~/.gitignore
 
 [color]
 	branch = always
