@@ -17,11 +17,9 @@ let mapleader=","			" Change mapleader
 
 " Centralize backups, swapfiles and undo history
 
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
-if exists("&undodir")
-	set undodir=~/.vim/undo
-endif
+set backupdir=~/.vim/backups//
+set directory=~/.vim/swaps//
+set undodir=~/.vim/undo//
 
 " Usability ;)
 
