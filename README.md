@@ -12,4 +12,5 @@ ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
 ln -s ~/.files/git/gitconfig ~/.gitconfig
 ln -s ~/.files/git/gitignore ~/.gitignore
 ln -s ~/.files/vim/vimrc ~/.vimrc
+ln -s ~/.files/vim ~/.vim
 ```
