@@ -26,3 +26,5 @@ alias reload!='RELOAD=1 source ~/.zshrc'
 alias df='df -h' # disk free, in Gigabytes, not bytes
 alias du='du -h -c' # calculate disk usage for a folder
 
+# Start using Vim8
+alias vi=vim

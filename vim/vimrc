@@ -29,6 +29,9 @@ set background=dark
 highlight clear SignColumn
 nnoremap ; :
 
+" Fix backspace in Vim8
+set backspace=indent,eol,start
+
 set mouse=a					" Make mouse usable
 
 " Invisible characters
