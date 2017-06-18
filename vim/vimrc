@@ -30,10 +30,10 @@ highlight clear SignColumn				" vim-gitgutter fix
 nnoremap ; :							" Remap semicolon to colon
 set showmatch							" Show matching brackets
 
-" Fix backspace in Vim8
-set backspace=indent,eol,start
-
+set backspace=indent,eol,start			" Fix backspace in Vim8
 set mouse=a								" Make mouse usable
+
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>			" <esc><esc> clears search highlights
 
 " Invisible characters
 
@@ -69,3 +69,4 @@ set nowrap								" Stop linebraking
 set scrolloff=5							" Keep 5 lines below cursor
 set sidescrolloff=15					" Keep 5 columns when scrolling vertically
 set sidescroll=1						" 1 column to scroll vertically
+
