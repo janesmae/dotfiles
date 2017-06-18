@@ -3,17 +3,17 @@
 " Basics
 
 set nocompatible
-set autoread				" Detect when a file is changed
-set textwidth=120
-set encoding=utf-8 nobomb
-set binary
-set noeol					" Remove empty newline at the end of the file
-set title
+set autoread							" Detect when a file is changed
+set encoding=utf-8 nobomb				" Set Character encoding without BOM
+set binary								" Binary mode for noeol
+set noeol								" Remove empty newline at the end of the file
+set title								" Inherit title for terminal
+set ruler								" Show line and col number
 
-set number					" Display current line number
-set relativenumber			" Display relative line numbers
+set number								" Display current line number
+set relativenumber						" Display relative line numbers
 
-let mapleader=","			" Change mapleader
+let mapleader=","						" Change mapleader
 
 " Centralize backups, swapfiles and undo history
 
@@ -23,32 +23,33 @@ set undodir=~/.vim/undo//
 
 " Usability ;)
 
-syntax on
-set cursorline
-set background=dark
-highlight clear SignColumn
-nnoremap ; :
+syntax on								" Enable syntax highlighting
+set cursorline							" Underline the current line
+set background=dark						" Set dark background
+highlight clear SignColumn				" vim-gitgutter fix
+nnoremap ; :							" Remap semicolon to colon
+set showmatch							" Show matching brackets
 
-" Fix backspace in Vim8
-set backspace=indent,eol,start
+set backspace=indent,eol,start			" Fix backspace in Vim8
+set mouse=a								" Make mouse usable
 
-set mouse=a					" Make mouse usable
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>			" <esc><esc> clears search highlights
 
 " Invisible characters
 
 set list
 set listchars=tab:→\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
-set showbreak=↪
+set showbreak=↪							" Show linebreak 
 
 " Tab control
 
-set autoindent
-set smartindent
-set smarttab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
-set noexpandtab				" Use tabs instead of spaces
+set autoindent							" Copy indent from previous line 
+set smartindent							" 
+set smarttab							" 
+set shiftwidth=4						" Number of spaces to use for (auto) indent
+set softtabstop=4						" Number of tabs that a <Tab> counts for
+set tabstop=4							" Number of spaces that a <Tab> counts for
+set noexpandtab							" Use tabs instead of spaces
 
 " Bells
 
@@ -57,14 +58,15 @@ set visualbell
 
 " Search
 
-set hlsearch
-set incsearch
-set ignorecase
-set showmatch
-set smartcase
+set hlsearch							" Highlight search matches
+set incsearch							" Show matches while searching
+set ignorecase							" Ignore case when searching
+set smartcase							" Override ignorecase when needed
 
 " Scrolling
 
-set scrolloff=4
-set sidescrolloff=15
-set sidescroll=1
+set nowrap								" Stop linebraking
+set scrolloff=5							" Keep 5 lines below cursor
+set sidescrolloff=15					" Keep 5 columns when scrolling vertically
+set sidescroll=1						" 1 column to scroll vertically
+
