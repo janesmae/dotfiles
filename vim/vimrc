@@ -1,5 +1,7 @@
 "" General vim config ""
 
+source ~/.vim/plugins.vim
+
 " Basics
 
 set nocompatible
@@ -68,5 +70,4 @@ set smartcase							" Override ignorecase when needed
 set nowrap								" Stop linebraking
 set scrolloff=5							" Keep 5 lines below cursor
 set sidescrolloff=15					" Keep 5 columns when scrolling vertically
-set sidescroll=1						" 1 column to scroll vertically
-
+set sidescroll=1						" Columns to scroll vertically
