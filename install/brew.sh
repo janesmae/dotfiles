@@ -20,7 +20,7 @@ formulas=(
 	curl
 	wget
 	tree
-	'grep --with-default-names'
+	grep --with-default-names
 	jo
 	reattach-to-user-namespace
 	the_silver_searcher
