@@ -1,9 +1,10 @@
 "" General vim config ""
 
+" Load Plugins
+
 source ~/.vim/plugins.vim
 
 " Basics
-
 set nocompatible
 set autoread							" Detect when a file is changed
 set encoding=utf-8 nobomb				" Set Character encoding without BOM
@@ -11,6 +12,8 @@ set binary								" Binary mode for noeol
 set noeol								" Remove empty newline at the end of the file
 set title								" Inherit title for terminal
 set ruler								" Show line and col number
+set showcmd								" Show incomplete cmds down the bottom
+set autoread							" Reload files changed outside vim
 
 set number								" Display current line number
 set relativenumber						" Display relative line numbers
@@ -37,6 +40,9 @@ set mouse=a								" Make mouse usable
 
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>			" <esc><esc> clears search highlights
 
+set textwidth=80
+set fo-=t								"prevent auto word wrapping
+
 " Invisible characters
 
 set list
@@ -46,11 +52,11 @@ set showbreak=↪							" Show linebreak
 " Tab control
 
 set autoindent							" Copy indent from previous line 
-set smartindent							" 
-set smarttab							" 
-set shiftwidth=4						" Number of spaces to use for (auto) indent
-set softtabstop=4						" Number of tabs that a <Tab> counts for
+set smartindent
+set smarttab
 set tabstop=4							" Number of spaces that a <Tab> counts for
+set softtabstop=0						" Number of tabs that a <Tab> counts for
+set shiftwidth=4						" Number of spaces to use for (auto) indent
 set noexpandtab							" Use tabs instead of spaces
 
 " Bells
@@ -71,3 +77,32 @@ set nowrap								" Stop linebraking
 set scrolloff=5							" Keep 5 lines below cursor
 set sidescrolloff=15					" Keep 5 columns when scrolling vertically
 set sidescroll=1						" Columns to scroll vertically
+
+"" Plugin Configurations ""
+
+" NERDTree
+
+map <C-n> :NERDTreeToggle<CR>
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
+" VimOutliner
+
+autocmd Syntax c,cpp,vim,xml,html,xhtml setlocal foldmethod=syntax
+set foldmethod=indent
+set foldlevelstart=2
+
+"remap folding commands to shift+left/right
+nnoremap <S-Right> zo
+inoremap <S-Right> <C-O>zo
+nnoremap <S-Left> zc
+inoremap <S-Left> <C-O>zc
+
+" change folding color for all files
+:hi Folded ctermfg=darkcyan ctermbg=black
