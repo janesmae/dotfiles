@@ -8,9 +8,11 @@ There is no proper installation script yet. This is a nice to have feature and w
 
 ```bash
 git clone https://github.com/janesmae/dotfiles.git ~/.files
+cd ~/.files
+git submodule init; git submodule update
+source ~/.files/install.sh
 ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
 ln -s ~/.files/git/gitconfig ~/.gitconfig
 ln -s ~/.files/git/gitignore ~/.gitignore
-ln -s ~/.files/vim/vimrc ~/.vimrc
 ln -s ~/.files/vim ~/.vim
 ```
