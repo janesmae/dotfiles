@@ -82,3 +82,7 @@ set scrolloff=10				" Keep 5 lines below cursor
 set sidescrolloff=15				" Keep 5 columns when scrolling vertically
 set sidescroll=1				" Columns to scroll vertically
 
+"" Plugin Configurations ""
+
+source ~/.vim/plugins/nerdtree.vim
+source ~/.vim/plugins/vimoutliner.vim
