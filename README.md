@@ -1,10 +1,6 @@
 # Dotfiles
 
-My .files including macos, vim, zsh, git, and tmux configurations. Feel free to use it and even make suggestions, however I may decline if there's not value to me. I'm starting on a fresh page with this repo. My old .files are still available at https://github.com/janesmae/ye_olde_dotfiles/.
-
-### Install
-
-There is no proper installation script yet. This is a nice to have feature and will come at some point in time. Therefore, use symlinks for now.
+This is the legacy development branch of my .files
 
 ```bash
 git clone https://github.com/janesmae/dotfiles.git ~/.files
