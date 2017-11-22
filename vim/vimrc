@@ -5,20 +5,16 @@
 source ~/.vim/plugins.vim
 
 " Basics
-set nocompatible
-set autoread							" Detect when a file is changed
-set encoding=utf-8 nobomb				" Set Character encoding without BOM
-set binary								" Binary mode for noeol
-set noeol								" Remove empty newline at the end of the file
-set title								" Inherit title for terminal
-set ruler								" Show line and col number
-set showcmd								" Show incomplete cmds down the bottom
-set autoread							" Reload files changed outside vim
-
-set number								" Display current line number
-set relativenumber						" Display relative line numbers
-
-let mapleader=","						" Change mapleader
+set nocompatible					" Turn on improvements
+set encoding=utf-8 nobomb			" Set Character encoding without BOM
+set binary							" Binary mode for noeol
+set noeol							" Remove empty newline at the end of the file
+set title							" Inherit title for terminal
+set ruler							" Show line and col number
+set showcmd							" Show incomplete cmds down the bottom
+set autoread						" Reload files changed outside vim
+set textwidth=80
+set fo-=t							"prevent auto word wrapping
 
 " Centralize backups, swapfiles and undo history
 
@@ -28,20 +24,29 @@ set undodir=~/.vim/undo//
 
 " Usability ;)
 
-syntax on								" Enable syntax highlighting
-set cursorline							" Underline the current line
-set background=dark						" Set dark background
-highlight clear SignColumn				" vim-gitgutter fix
-nnoremap ; :							" Remap semicolon to colon
-set showmatch							" Show matching brackets
+set number							" Display current line number
+set relativenumber					" Display relative line numbers
 
-set backspace=indent,eol,start			" Fix backspace in Vim8
-set mouse=a								" Make mouse usable
+syntax on							" Enable syntax highlighting
+set showmatch						" Show matching brackets
+set cursorline						" Underline the current line
+set background=dark					" Set dark background
 
-nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>			" <esc><esc> clears search highlights
 
-set textwidth=80
-set fo-=t								"prevent auto word wrapping
+let mapleader=","					" Change mapleader
+
+highlight clear SignColumn			" vim-gitgutter fix
+nnoremap ; :
+
+highlight ColorColumn ctermbg=red
+call matchadd('colorcolumn', '\%81v', 100)
+
+highlight ListChars ctermfg=Cyan
+
+set backspace=indent,eol,start		" Fix backspace in Vim8
+set mouse=a							" Make mouse usable
+
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>		" <esc><esc> clears search highlights
 
 " Invisible characters
 
@@ -104,5 +109,8 @@ inoremap <S-Right> <C-O>zo
 nnoremap <S-Left> zc
 inoremap <S-Left> <C-O>zc
 
-" change folding color for all files
-:hi Folded ctermfg=darkcyan ctermbg=black
+colorscheme default
+
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+hi IndentGuidesOdd  ctermbg=0
