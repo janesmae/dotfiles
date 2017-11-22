@@ -58,6 +58,8 @@ cask 'little-snitch'
 cask 'appcleaner'
 
 # Developer Tools
+cask 'arduino'
+
 # cask 'vagrant'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
