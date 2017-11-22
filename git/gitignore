@@ -11,7 +11,12 @@ Desktop.ini
 .Spotlight-V100
 .Trashes
 
-## Vim ##
+## Programming languages ##
+
+# Compiled Python files
+*.pyc
+
+## vim ##
 
 # swap
 [._]*.s[a-v][a-z]
