@@ -1,4 +1,4 @@
-## zsh aliases ##
+## Zsh aliases ##
 
 # Navigation
 alias ...="cd ../.."

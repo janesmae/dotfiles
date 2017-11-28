@@ -5,16 +5,16 @@
 source ~/.vim/plugins.vim
 
 " Basics
-set nocompatible					" Turn on improvements
+set nocompatible				" Turn on improvements
 set encoding=utf-8 nobomb			" Set Character encoding without BOM
-set binary							" Binary mode for noeol
-set noeol							" Remove empty newline at the end of the file
-set title							" Inherit title for terminal
-set ruler							" Show line and col number
-set showcmd							" Show incomplete cmds down the bottom
-set autoread						" Reload files changed outside vim
+set binary					" Binary mode for noeol
+set noeol					" Remove empty newline at the end of the file
+set title					" Inherit title for terminal
+set ruler					" Show line and col number
+set showcmd					" Show incomplete cmds down the bottom
+set autoread					" Reload files changed outside vim
 set textwidth=80
-set fo-=t							"prevent auto word wrapping
+set fo-=t					" Prevent auto word wrapping
 
 " Centralize backups, swapfiles and undo history
 
@@ -24,16 +24,15 @@ set undodir=~/.vim/undo//
 
 " Usability ;)
 
-set number							" Display current line number
-set relativenumber					" Display relative line numbers
+set number					" Display current line number
+set relativenumber				" Display relative line numbers
 
-syntax on							" Enable syntax highlighting
-set showmatch						" Show matching brackets
-set cursorline						" Underline the current line
-set background=dark					" Set dark background
+syntax on					" Enable syntax highlighting
+set showmatch					" Show matching brackets
+set cursorline					" Underline the current line
+set background=dark				" Set dark background
 
-
-let mapleader=","					" Change mapleader
+let mapleader=","				" Change mapleader
 
 highlight clear SignColumn			" vim-gitgutter fix
 nnoremap ; :
@@ -43,26 +42,26 @@ call matchadd('colorcolumn', '\%81v', 100)
 
 highlight ListChars ctermfg=Cyan
 
-set backspace=indent,eol,start		" Fix backspace in Vim8
-set mouse=a							" Make mouse usable
+set backspace=indent,eol,start			" Fix backspace in Vim8
+set mouse=a					" Make mouse usable
 
-nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>		" <esc><esc> clears search highlights
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>	" <esc><esc> clears search highlights
 
 " Invisible characters
 
 set list
 set listchars=tab:→\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
-set showbreak=↪							" Show linebreak 
+set showbreak=↪	
 
 " Tab control
 
-set autoindent							" Copy indent from previous line 
+set autoindent					" Copy indent from previous line 
 set smartindent
 set smarttab
-set tabstop=4							" Number of spaces that a <Tab> counts for
-set softtabstop=0						" Number of tabs that a <Tab> counts for
-set shiftwidth=4						" Number of spaces to use for (auto) indent
-set noexpandtab							" Use tabs instead of spaces
+set tabstop=8					" Number of spaces that a <Tab> counts for
+set softtabstop=0				" Number of tabs that a <Tab> counts for
+set shiftwidth=8				" Number of spaces to use for (auto) indent
+set noexpandtab					" Use tabs instead of spaces
 
 " Bells
 
@@ -71,46 +70,19 @@ set visualbell
 
 " Search
 
-set hlsearch							" Highlight search matches
-set incsearch							" Show matches while searching
-set ignorecase							" Ignore case when searching
-set smartcase							" Override ignorecase when needed
+set hlsearch					" Highlight search matches
+set incsearch					" Show matches while searching
+set ignorecase					" Ignore case when searching
+set smartcase					" Override ignorecase when needed
 
 " Scrolling
 
-set nowrap								" Stop linebraking
-set scrolloff=5							" Keep 5 lines below cursor
-set sidescrolloff=15					" Keep 5 columns when scrolling vertically
-set sidescroll=1						" Columns to scroll vertically
+set nowrap					" Stop linebraking
+set scrolloff=10				" Keep 5 lines below cursor
+set sidescrolloff=15				" Keep 5 columns when scrolling vertically
+set sidescroll=1				" Columns to scroll vertically
 
 "" Plugin Configurations ""
 
-" NERDTree
-
-map <C-n> :NERDTreeToggle<CR>
-
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-let g:NERDTreeDirArrows = 1
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-
-" VimOutliner
-
-autocmd Syntax c,cpp,vim,xml,html,xhtml setlocal foldmethod=syntax
-set foldmethod=indent
-set foldlevelstart=2
-
-"remap folding commands to shift+left/right
-nnoremap <S-Right> zo
-inoremap <S-Right> <C-O>zo
-nnoremap <S-Left> zc
-inoremap <S-Left> <C-O>zc
-
-colorscheme default
-
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 0
-hi IndentGuidesOdd  ctermbg=0
+source ~/.vim/plugins/nerdtree.vim
+source ~/.vim/plugins/vimoutliner.vim

@@ -10,12 +10,35 @@
 [alias]
 	co = checkout
 	cm = commit --message
-	s = status
+	s = status --short
 	d = diff
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
+	tags = tag --list
+	branches = branch --all
+	remotes = remote --verbose
+
 [core]
 	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+
+	trustctime = false		# http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/
+	precomposeunicode = false	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
+	untrackedCache = true		# https://git-scm.com/docs/git-update-index#_untracked_cache
+
+[apply]
+	whitespace = fix
+
+[commit]
+	# gpgsign = true			# https://help.github.com/articles/signing-commits-using-gpg/
+
+[push]
+	default = simple
+	followTags = true
+
+## Color schemes ## 
 
 [color]
 	branch = always
@@ -48,8 +71,7 @@
 	untracked = cyan
 	branch = magenta
 
-[push]
-	default = simple
+## URL Shorthands ##
 
 [url "git@github.com:"]
-	insteadof = github:
+	insteadof = github:	

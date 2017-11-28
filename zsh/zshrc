@@ -1,0 +1,8 @@
+##  Zsh general config ##
+
+source ~/.zsh/setopts.zsh
+source ~/.zsh/aliases.zsh
+source ~/.zsh/history.zsh
+
+# zsh-autosuggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

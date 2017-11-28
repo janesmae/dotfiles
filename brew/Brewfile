@@ -1,0 +1,85 @@
+## Homebrew applications ##
+
+# Utilities bundles
+brew 'coreutils'
+brew 'moreutils'
+brew 'dockutil'
+
+# Essential
+brew 'zsh'
+brew 'tmux'
+brew 'git'
+brew 'hub'
+brew 'vim'
+
+# Missing Utilities
+brew 'p7zip'
+brew 'curl'
+brew 'wget'
+brew 'tree'
+brew 'grep', args: ['with-default-names']
+brew 'jo'
+brew 'jq'
+brew 'zsh-autosuggestions'
+
+# Gimmicks
+brew 'reattach-to-user-namespace'
+brew 'the_silver_searcher'
+brew 'markdown'
+brew 'ponysay'
+
+# MacAppStore
+brew 'mas'
+
+## Cask applications ##
+
+cask_args appdir: '/Applications'
+
+# Terminal
+cask 'iterm2'
+
+# Browsers
+cask 'firefox'
+cask 'google-chrome'
+
+# Communications
+cask 'slack'
+cask 'skype'
+cask 'caprine'
+
+# Utilities
+cask 'alfred'
+cask 'atom'
+cask 'spectacle'
+cask 'etcher'
+cask 'keycastr'
+cask 'bartender'
+cask 'numi'
+cask 'little-snitch'
+cask 'appcleaner'
+
+# Developer Tools
+cask 'arduino'
+
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
+
+## MacAppStore ##
+
+# Office alternative
+mas 'Pages',		id: 409201541
+mas 'Numbers',		id: 409203825
+mas 'Keynote',		id: 409183694
+
+# Utilities
+mas '1Password', 	id: 443987910
+mas 'Next Meeting',	id: 1017470484
+mas 'Daisydisk',	id: 411643860
+mas 'Amphetamine',	id: 937984704
+mas 'Magnet',		id: 441258766
+mas 'HazeOver',		id: 430798174
+
+# Developer Rools
+mas 'XCode',		id: 497799835
+
