@@ -20,6 +20,7 @@ brew 'tree'
 brew 'grep', args: ['with-default-names']
 brew 'jo'
 brew 'jq'
+brew 'zsh-autosuggestions'
 
 # Gimmicks
 brew 'reattach-to-user-namespace'
