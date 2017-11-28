@@ -57,6 +57,7 @@ cask 'bartender'
 cask 'numi'
 cask 'little-snitch'
 cask 'appcleaner'
+cask 'gpg-suite'
 
 # Developer Tools
 cask 'arduino'
