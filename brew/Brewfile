@@ -20,6 +20,7 @@ brew 'tree'
 brew 'grep', args: ['with-default-names']
 brew 'jo'
 brew 'jq'
+brew 'htop-osx'
 brew 'zsh-autosuggestions'
 
 # Gimmicks
@@ -57,6 +58,7 @@ cask 'bartender'
 cask 'numi'
 cask 'little-snitch'
 cask 'appcleaner'
+cask 'gpg-suite'
 
 # Developer Tools
 cask 'arduino'
