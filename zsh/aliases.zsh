@@ -30,4 +30,4 @@ alias vi=vim
 alias reload!='RELOAD=1 source ~/.zshrc'
 
 # Update system
-alias update!="brew update;brew upgrade;brew cleanup;brew cask outdated | xargs brew cask reinstall;mas upgrade"
+alias update!="brew update;brew upgrade;brew cleanup;brew doctor;brew cask outdated | xargs brew cask reinstall;mas upgrade"
