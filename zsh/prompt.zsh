@@ -1,0 +1,2 @@
+PROMPT='
+${PR_GREEN}%n%{$reset_color%} %{$FG[239]%}at%{$reset_color%} ${PR_BOLD_BLUE}$(hostname -s)%{$reset_color%} $FG[239]%}in%{$reset_color%} ${PR_BOLD_YELLOW}$(pwd | sed -e "s,^$HOME,~,")%{$reset_color%} > '
