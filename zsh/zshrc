@@ -1,5 +1,6 @@
 ##  Zsh general config ##
 
+source ~/.zsh/colors.zsh
 source ~/.zsh/setopts.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
