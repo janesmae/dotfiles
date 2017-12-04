@@ -69,6 +69,9 @@ cask 'arduino'
 
 ## MacAppStore ##
 
+# E-mail
+mas 'Airmail 3',	id: 918858936
+
 # Office alternative
 mas 'Pages',		id: 409201541
 mas 'Numbers',		id: 409203825
