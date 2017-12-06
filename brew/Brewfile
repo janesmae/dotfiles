@@ -29,6 +29,9 @@ brew 'the_silver_searcher'
 brew 'markdown'
 brew 'ponysay'
 
+# Developer tools
+# brew ansible
+
 # MacAppStore
 brew 'mas'
 
@@ -91,4 +94,4 @@ mas 'HazeOver',		id: 430798174
 
 # Developer Rools
 mas 'XCode',		id: 497799835
-
+# mas "Microsoft Remote Desktop",	id: 1295203466
