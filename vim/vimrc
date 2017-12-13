@@ -86,3 +86,4 @@ set sidescroll=1				" Columns to scroll vertically
 
 source ~/.vim/plugins/nerdtree.vim
 source ~/.vim/plugins/vimoutliner.vim
+source ~/.vim/plugins/airline.vim
