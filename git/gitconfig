@@ -12,6 +12,7 @@
 	cm = commit --message
 	s = status --short
 	d = diff
+	b = branch
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	tags = tag --list
