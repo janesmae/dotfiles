@@ -9,3 +9,7 @@ source ~/.zsh/history.zsh
 
 # zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+# iTerm shell integration
+source ~/.zsh/iterm.zsh
