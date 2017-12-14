@@ -34,7 +34,7 @@ function create_prompt {
 	print -n " in"
 	print -n " %F{yellow}%~%f"
 	prompt_git
-	print -n " >%b "
+	print -n " »%b "
 }
 
 precmd() {
