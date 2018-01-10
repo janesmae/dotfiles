@@ -65,6 +65,7 @@ cask 'numi'
 cask 'little-snitch'
 cask 'appcleaner'
 cask 'gpg-suite'
+cask 'macdown'
 
 # Developer Tools
 cask 'arduino'
