@@ -23,7 +23,7 @@ brew 'tree'
 brew 'grep', args: ['with-default-names']
 brew 'jo'
 brew 'jq'
-brew 'htop-osx'
+# brew 'htop'
 brew 'zsh-autosuggestions'
 
 # Gimmicks
