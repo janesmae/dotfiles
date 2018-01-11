@@ -8,7 +8,7 @@ source ~/.zsh/aliases.zsh
 source ~/.zsh/history.zsh
 
 # Zsh Autosuggestions, added as git submodule
-ZSH_AUTOSUGGESTIONS='~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh'
+ZSH_AUTOSUGGESTIONS='~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh'
 if [ -f $ZSH_AUTOSUGGESTIONS ]; then
 	source $ZSH_AUTOSUGGESTIONS
 fi
