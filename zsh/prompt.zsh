@@ -1,13 +1,26 @@
 ## Zsh prompt ##
 
-function prompt_host {
+function prompt_user {
 	local color
-	if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+	if [[ $UID == 0 || $EUID == 0 ]]; then
+		# root
 		color='red'
 	else
+		color='green'
+	fi	
+	print -n "%F{$color}%n%f"
+}
+
+function prompt_host {
+	local color prompt
+	if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+		color='magenta'
+		prompt="%M"
+	else
 		color='blue'
+		prompt="%m"
 	fi
-	print -n " %F{$color}%m%f"
+	print -n "%F{$color}$prompt%f"
 }
 
 function prompt_git {
@@ -38,11 +51,12 @@ function prompt_git {
 }
 
 function create_prompt {
-	print -n " %B%F{green}%n%f"
-	print -n " at"
+	print -n " %B"
+	prompt_user
+	print -n " at "
 	prompt_host
-	print -n " in"
-	print -n " %F{yellow}%~%f"
+	print -n " in "
+	print -n "%F{yellow}%~%f"
 	prompt_git
 	print -n " »%b "
 }
