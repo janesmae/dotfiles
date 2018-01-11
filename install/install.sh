@@ -16,6 +16,9 @@ ln -s ~/.files/git/gitconfig ~/.gitconfig
 ln -s ~/.files/git/gitignore ~/.gitignore
 ln -s ~/.files/git/gitatributes ~/.gitatributes
 
+### Tmux
+ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
+
 # OS specific setup
 case `uname` in
 	Darwin)
