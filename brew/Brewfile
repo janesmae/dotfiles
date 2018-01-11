@@ -24,7 +24,6 @@ brew 'grep', args: ['with-default-names']
 brew 'jo'
 brew 'jq'
 # brew 'htop'
-brew 'zsh-autosuggestions'
 
 # Gimmicks
 brew 'reattach-to-user-namespace'

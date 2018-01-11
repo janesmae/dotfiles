@@ -7,9 +7,16 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/history.zsh
 
-# zsh-autosuggestions
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Zsh Autosuggestions, added as git submodule
+ZSH_AUTOSUGGESTIONS='~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh'
+if [ -f $ZSH_AUTOSUGGESTIONS ]; then
+	source $ZSH_AUTOSUGGESTIONS
+fi
 
+# Add the following components only, when running on a mac
+if [ "$(uname)" == "Darwin" ]; then
 
-# iTerm shell integration
-source ~/.zsh/iterm.zsh
+	# iTerm shell integration
+	source ~/.zsh/iterm.zsh
+
+fi

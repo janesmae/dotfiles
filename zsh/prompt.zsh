@@ -1,5 +1,15 @@
 ## Zsh prompt ##
 
+function prompt_host {
+	local color
+	if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+		color='red'
+	else
+		color='blue'
+	fi
+	print -n " %F{$color}%m%f"
+}
+
 function prompt_git {
 	local ref gitst color gitstatus
 	ref=$(=git symbolic-ref HEAD 2> /dev/null)
@@ -30,7 +40,7 @@ function prompt_git {
 function create_prompt {
 	print -n " %B%F{green}%n%f"
 	print -n " at"
-	print -n " %F{blue}%m%f"
+	prompt_host
 	print -n " in"
 	print -n " %F{yellow}%~%f"
 	prompt_git
