@@ -7,11 +7,8 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/history.zsh
 
-# Zsh Autosuggestions, added as git submodule
-ZSH_AUTOSUGGESTIONS='~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh'
-if [ -f $ZSH_AUTOSUGGESTIONS ]; then
-	source $ZSH_AUTOSUGGESTIONS
-fi
+# Zsh Autosuggestions
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # OS specific configurations
 case `uname` in
