@@ -13,10 +13,18 @@ if [ -f $ZSH_AUTOSUGGESTIONS ]; then
 	source $ZSH_AUTOSUGGESTIONS
 fi
 
-# Add the following components only, when running on a mac
-if [ "$(uname)" == "Darwin" ]; then
+# OS specific configurations
+case `uname` in
+	Darwin)
+    		# OS X
 
-	# iTerm shell integration
-	source ~/.zsh/iterm.zsh
+		# iTerm shell integration
+		source ~/.zsh/iterm.zsh
 
-fi
+	;;
+	Linux)
+		# Linux
+
+	;;
+
+esac
