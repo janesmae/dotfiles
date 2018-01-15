@@ -19,6 +19,7 @@ alias du='du -h -c'		# disk usage, for a folder
 
 # Start using Vim8
 alias vi=vim
+alias view=view -M		# Use view as unmodifiable
 
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
