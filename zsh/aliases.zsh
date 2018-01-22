@@ -5,9 +5,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# Fix list files
-alias ls="command ls -lhHFG"
-
 # Fix grep
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
@@ -29,6 +26,9 @@ case `uname` in
 	Darwin)
 		# OS X
 
+		# Fix list files
+		alias ls="gls -lphH --color=auto"
+
 		# Macos dns flush
 		alias dns_flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed"
 
@@ -41,6 +41,9 @@ case `uname` in
 	;;
 	Linux)
 		# Linux
+		
+		# Fix list files
+		alias ls="ls -lphH --color=auto"
 
 	;;
 
