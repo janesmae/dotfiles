@@ -1,0 +1,17 @@
+chatnets = { };
+servers = { };
+channels  = { };
+settings = {
+  core = {
+    real_name = "bot";
+    user_name = "bot";
+    nick = "bot";
+    timestamp_format = "%H:%M:%S";
+  };
+  "fe-text" = { actlist_sort = "refnum"; };
+  "fe-common/core" = {
+    autolog = "yes";
+    autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
+    autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
+  };
+};

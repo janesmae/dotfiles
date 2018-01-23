@@ -45,6 +45,9 @@ case `uname` in
 		# Fix list files
 		alias ls="ls -lphH --color=auto"
 
+		# Update system
+		alias update!="sudo apt-get update;sudo apt-get upgrade -y"
+
 	;;
 
 esac
