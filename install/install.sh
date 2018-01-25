@@ -19,6 +19,9 @@ ln -s ~/.files/git/gitatributes ~/.gitatributes
 ### Tmux
 ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
 
+### Irssi
+ln -s ~/.files/irssi ~/.irssi
+
 # OS specific setup
 case `uname` in
 	Darwin)
