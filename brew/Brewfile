@@ -1,8 +1,5 @@
 ## Homebrew applications ##
 
-# Tap external sources
-tap 'caskroom/fonts'
-
 # Utilities bundles
 brew 'coreutils'
 brew 'moreutils'
