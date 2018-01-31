@@ -14,7 +14,7 @@ ln -s ~/.files/vim/ ~/.vim
 ### Git
 ln -s ~/.files/git/gitconfig ~/.gitconfig
 ln -s ~/.files/git/gitignore ~/.gitignore
-ln -s ~/.files/git/gitatributes ~/.gitatributes
+ln -s ~/.files/git/gitattributes ~/.gitattributes
 
 ### Tmux
 ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
