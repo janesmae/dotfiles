@@ -54,6 +54,10 @@ $ source ~/.files/install/install.sh
 
 - folder `~/.files/irssi` should be symlinked as `~/.irssi`
 
+### todo.txt
+
+- folder `~/.files/todo` should be symlinked as `~/.todo`
+
 ### MacOS
 
 - Install HomeBrew

@@ -22,6 +22,9 @@ ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
 ### Irssi
 ln -s ~/.files/irssi ~/.irssi
 
+### Todo.txt
+ln -s ~/.files/todo ~/.todo
+
 # OS specific setup
 case `uname` in
 	Darwin)
