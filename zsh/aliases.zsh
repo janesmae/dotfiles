@@ -18,6 +18,9 @@ alias du='du -h -c'		# disk usage, for a folder
 alias vi=vim
 alias view=view -M		# Use view as unmodifiable
 
+# todo.txt
+alias t=todo.sh
+
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
 
