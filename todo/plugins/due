@@ -1,0 +1,117 @@
+#!/usr/bin/env python
+"""
+This addon produces a simple report based on analysing the 'due:' tag. Items
+which are overdue or due are included in the report. If there are no matching
+items there is no output produced (easily parsed by a simple cron script.
+"""
+
+from __future__ import print_function
+
+import argparse
+import datetime
+import os
+import os.path
+import re
+import sys
+
+DEBUG=False
+
+
+def debug(s):
+    if DEBUG:
+        print(s, file=sys.stderr)
+
+
+def check_due(line, today_date):
+    """Parses the due field.
+    Field is categorized into one of: 'not-due', 'due' (due today), 'overdue' (due before today),
+    and 'unknown' (could not parse the due: field).  
+    """
+    match = re.search('due:([\S]+)', line)
+    if not match:
+        return 'unknown'
+    date_str = match.group(1)
+    try:
+        date_val = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
+    except ValueError:
+        return 'unknown'
+    if date_val < today_date:
+        return 'overdue'
+    elif date_val == today_date:
+        return 'due'
+    return 'not-due'
+     
+
+def scan_file(todo_file):
+    """Scan the given todo_file, manually parsing out the lines containing 'due:' field.
+    Returns lists of overdue, due, and unkown."""
+    today_date = datetime.date.today()
+    overdue_lines = []
+    due_lines = []
+    unknown_lines = []
+    with open(todo_file) as f:
+        for line in f:
+            line = line.strip()
+            if not line.startswith('x ') and 'due:' in line:
+                due_val = check_due(line, today_date)
+                debug("line:%s due_val:%s" % (line, due_val))
+                if due_val == 'overdue':
+                    overdue_lines.append(line)
+                elif due_val == 'due':
+                    due_lines.append(line)
+                elif due_val == 'unknown':
+                    unknown_lines.append(line)
+    return (overdue_lines, due_lines, unknown_lines)
+
+
+def print_summary(scan_result):
+    """Print a summary of the scan results.
+    The summary is in simple markdown format, in case you want to create html from it.
+    """
+    (overdue_lines, due_lines, unknown_lines) = scan_result
+    if len(overdue_lines) < 1 and len(due_lines) < 1 and len(unknown_lines) < 1:
+        debug('print_summary: nothing to report')
+        return
+    print('# Todo.txt Due Items\n')
+    format_str = '    {0}\n'
+    if len(overdue_lines) > 0:
+        print('Overdue\n-------\n')
+        for l in overdue_lines:
+            print(format_str.format(l))
+        print('')
+    if len(due_lines) > 0:
+        print('Due Today\n---------\n')
+        for l in due_lines:
+            print(format_str.format(l))
+        print('')
+    if len(unknown_lines) > 0:
+        print('Unknown\n-------\n')
+        for l in unknown_lines:
+            print(format_str.format(l))
+        print('')
+
+
+def main(argv=None):
+    #sys.argv=sys.argv[1:]
+    parser = argparse.ArgumentParser(description="Reports overdue/due items by 'due:' tag",
+            epilog=__doc__)
+    parser.add_argument("-D", "--debug", action="store_true", help="turn on debug output")
+    parser.add_argument("usage", nargs="?", help="[internal, exists for invocation via todo.sh]")
+    args = parser.parse_args()
+    if args.usage == 'usage':
+        print('    due: reports overdue/due items')
+        return 0
+    if args.debug:
+        global DEBUG
+        DEBUG = True
+    todo_file = os.environ['TODO_FILE']
+    print_summary(scan_file(todo_file))
+    return 0
+
+
+###############################################################################
+#
+if __name__ == "__main__" or __name__ == "main":
+    sys.exit(main())
+
+# vim: set filetype=python
