@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# source: https://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add
+# Source: https://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add
 # Author: Philippe Teuwen / https://github.com/doegox
 #
 # Edited by Jaan Janesmae (removed marking it as done functionality)

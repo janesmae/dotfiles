@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# source: https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
+# Source: https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
 # Author: Manuel J. Garrido / https://github.com/mgarrido
+#
+# Edited by Jaan Janesmae (updated note template)
 
 TODO_NOTES_DIR=$TODO_DIR/notes
 TODO_NOTE_TAG="note"

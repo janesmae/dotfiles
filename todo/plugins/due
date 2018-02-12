@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+
+# Source: https://github.com/kmac/todo-due
+# Author: Kyle MacLeod / https://github.com/kmac
+#
+# Edited by Jaan Janesmae (Updated help message)
+
 """
 This addon produces a simple report based on analysing the 'due:' tag. Items
 which are overdue or due are included in the report. If there are no matching
@@ -99,7 +105,9 @@ def main(argv=None):
     parser.add_argument("usage", nargs="?", help="[internal, exists for invocation via todo.sh]")
     args = parser.parse_args()
     if args.usage == 'usage':
-        print('    due: reports overdue/due items')
+        print('  Check deadlines for items:')
+        print('    due')
+        print('      Reports overdue/due items')
         return 0
     if args.debug:
         global DEBUG
