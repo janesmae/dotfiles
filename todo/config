@@ -10,3 +10,6 @@ export TODOTXT_DEFAULT_ACTION=ls
 
 # Plugins
 export TODO_ACTIONS_DIR="$HOME/.todo/plugins"
+
+# Editor
+export EDITOR='vim'
