@@ -7,6 +7,3 @@
 [submodule "todo/plugins/graph"]
 	path = todo/plugins/graph
 	url = https://github.com/timpulver/todo.txt-graph.git
-[submodule "todo/plugins/due"]
-	path = todo/plugins/due
-	url = https://github.com/rebeccamorgan/due.git
