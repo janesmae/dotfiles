@@ -7,7 +7,7 @@
 
 TODO_NOTES_DIR=$TODO_DIR/notes
 TODO_NOTE_TAG="note"
-TODO_NOTE_TEMPLATE="XXXX-XXXX-XXXX"
+TODO_NOTE_TEMPLATE="todo-XXXXXXXX"
 TODO_NOTE_EXT=${TODO_NOTE_EXT:-.md}
 TODO_NOTE_ARCHIVE="$TODO_NOTES_DIR/archive$TODO_NOTE_EXT"
 
@@ -29,6 +29,7 @@ getnotenamefromnumber() {
     #     $notename contains note name, if task has note.
     #     $item contains the task name
 
+    A
     item="$1"
 
     getTodo "$item"
