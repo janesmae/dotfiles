@@ -29,7 +29,6 @@ getnotenamefromnumber() {
     #     $notename contains note name, if task has note.
     #     $item contains the task name
 
-    A
     item="$1"
 
     getTodo "$item"
