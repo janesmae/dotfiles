@@ -14,12 +14,12 @@ alias egrep="egrep --color=auto"
 alias df='df -h'		# disk free, in Gigabytes, not bytes
 alias du='du -h -c'		# disk usage, for a folder
 
+# TypoFix
+alias gti='git'
+
 # Start using Vim8
 alias vi=vim
 alias view=view -M		# Use view as unmodifiable
-
-# todo.txt
-alias t=todo.sh
 
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
@@ -40,6 +40,9 @@ case `uname` in
 
 		# Update system
 		alias update!="brew update;brew upgrade;brew cleanup;brew doctor;brew cask upgrade;mas upgrade"
+
+		# todo.txt
+		alias t=todo.sh
 
 	;;
 	Linux)
