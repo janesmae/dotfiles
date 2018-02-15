@@ -3,27 +3,27 @@
 ## Create symlinks~
 
 ### Zsh
-ln -sf ~/.files/zsh/zshrc ~/.zshrc
-ln -sf ~/.files/zsh/ ~/.zsh
+ln -sfn ~/.files/zsh/zshrc ~/.zshrc
+ln -sfn ~/.files/zsh/ ~/.zsh
 
 ### Vim
-ln -sf ~/.files/vim/vimrc ~/.vimrc
-ln -sf ~/.files/vim/ ~/.vim
+ln -sfn ~/.files/vim/vimrc ~/.vimrc
+ln -sfn ~/.files/vim/ ~/.vim
 
 
 ### Git
-ln -sf ~/.files/git/gitconfig ~/.gitconfig
-ln -sf ~/.files/git/gitignore ~/.gitignore
-ln -sf ~/.files/git/gitattributes ~/.gitattributes
+ln -sfn ~/.files/git/gitconfig ~/.gitconfig
+ln -sfn ~/.files/git/gitignore ~/.gitignore
+ln -sfn ~/.files/git/gitattributes ~/.gitattributes
 
 ### Tmux
-ln -sf ~/.files/tmux/tmux.conf ~/.tmux.conf
+ln -sfn ~/.files/tmux/tmux.conf ~/.tmux.conf
 
 ### Irssi
-ln -sf ~/.files/irssi ~/.irssi
+ln -sfn ~/.files/irssi/ ~/.irssi
 
 ### Todo.txt
-ln -sf ~/.files/todo ~/.todo
+ln -sfn ~/.files/todo/ ~/.todo
 mkdir -p ~/.todo-data
 
 # OS specific setup
