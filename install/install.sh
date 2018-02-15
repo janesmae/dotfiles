@@ -3,36 +3,41 @@
 ## Create symlinks~
 
 ### Zsh
-ln -s ~/.files/zsh/zshrc ~/.zshrc
-ln -s ~/.files/zsh/ ~/.zsh
+ln -sf ~/.files/zsh/zshrc ~/.zshrc
+ln -sf ~/.files/zsh/ ~/.zsh
 
 ### Vim
-ln -s ~/.files/vim/vimrc ~/.vimrc
-ln -s ~/.files/vim/ ~/.vim
+ln -sf ~/.files/vim/vimrc ~/.vimrc
+ln -sf ~/.files/vim/ ~/.vim
 
 
 ### Git
-ln -s ~/.files/git/gitconfig ~/.gitconfig
-ln -s ~/.files/git/gitignore ~/.gitignore
-ln -s ~/.files/git/gitattributes ~/.gitattributes
+ln -sf ~/.files/git/gitconfig ~/.gitconfig
+ln -sf ~/.files/git/gitignore ~/.gitignore
+ln -sf ~/.files/git/gitattributes ~/.gitattributes
 
 ### Tmux
-ln -s ~/.files/tmux/tmux.conf ~/.tmux.conf
+ln -sf ~/.files/tmux/tmux.conf ~/.tmux.conf
 
 ### Irssi
-ln -s ~/.files/irssi ~/.irssi
+ln -sf ~/.files/irssi ~/.irssi
 
 ### Todo.txt
-ln -s ~/.files/todo ~/.todo
-mkdir ~/.todo-data
+ln -sf ~/.files/todo ~/.todo
+mkdir -p ~/.todo-data
 
 # OS specific setup
 case `uname` in
 	Darwin)
 		# OS X
+		
+		if [[ $(command -v brew) == "" ]]; then
+			# Install Homebrew
+			ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		fi
 
 		# Install Homebrew
-		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		brew update
 
 	;;
