@@ -24,7 +24,8 @@ ln -sfn ~/.files/irssi/ ~/.irssi
 
 ### Todo.txt
 ln -sfn ~/.files/todo/ ~/.todo
-mkdir -p ~/.todo-data
+# mkdir -p ~/.todo-data
+ln -sfn ~/.private/todo-data ~/.todo-data
 
 # OS specific setup
 case `uname` in

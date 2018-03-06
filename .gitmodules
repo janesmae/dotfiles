@@ -4,6 +4,3 @@
 [submodule "zsh/plugins/zsh-autosuggestions"]
 	path = zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
-[submodule "todo/plugins/graph"]
-	path = todo/plugins/graph
-	url = https://github.com/timpulver/todo.txt-graph.git

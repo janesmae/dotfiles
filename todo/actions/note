@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # Source: https://github.com/mgarrido/todo.txt-cli/tree/note/todo.actions.d
-# Author: Manuel J. Garrido / https://github.com/mgarrido
-#
 # Edited by Jaan Janesmae (updated note template)
 
 TODO_NOTES_DIR=$TODO_DIR/notes
@@ -18,6 +16,8 @@ usage() {
     echo "      Opens in EDITOR the note related with the task on line ITEM# or the notes archive."
     echo "    $(basename $0) show|s ITEM#|archive|a"
     echo "      Shows the note related with the task on line ITEM# or the notes archive."
+    echo ""
+    exit
 }
 
 getnotenamefromnumber() {

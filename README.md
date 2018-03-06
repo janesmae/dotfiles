@@ -57,7 +57,8 @@ $ source ~/.files/install/install.sh
 ### todo.txt
 
 - folder `~/.files/todo` should be symlinked as `~/.todo`
-- folder `~/.todo-data` should be created
+- ~~folder `~/.todo-data` should be created~~
+- folder `~/.private/todo-data` should be symlinked as `~/.todo-data`
 
 ### MacOS
 
