@@ -37,8 +37,7 @@ function add {
 	item=$1
 	threshold=$2
 
-	re='^-?[0-9]+$'
-	[[ $2 =~ $re ]] && threshold=$2" days"
+	[[ "$2" =~ ^-?[0-9]+$ ]] && threshold=$2" days"
 
 	flag=`sed -e "$item!d" "$TODO_FILE" | grep "$pattern"`
 
