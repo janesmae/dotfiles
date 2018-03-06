@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
 # Source: https://github.com/kmac/todo-due
-# Author: Kyle MacLeod / https://github.com/kmac
-#
 # Edited by Jaan Janesmae (Updated help message)
 
 """
@@ -105,7 +103,6 @@ def main(argv=None):
     parser.add_argument("usage", nargs="?", help="[internal, exists for invocation via todo.sh]")
     args = parser.parse_args()
     if args.usage == 'usage':
-        print('  Check deadlines for items:')
         print('    due')
         print('      Reports overdue/due items')
         return 0

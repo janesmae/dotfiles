@@ -1,18 +1,14 @@
 #!/bin/bash
 
 # Source: https://github.com/doegox/todo.txt-cli/blob/extras/todo.actions.d/add
-# Author: Philippe Teuwen / https://github.com/doegox
-#
 # Edited by Jaan Janesmae (removed marking it as done functionality)
 
 action=$1
 shift
 
 [ "$action" = "usage" ] && {
-    echo "  Customized add:"
-    echo "    add pri PRIORITY \"THING I NEED TO DO +project @context\""
-    echo "    add p PRIORITY \"THING I NEED TO DO +project @context\""
-    echo "      add an item and prioritize it in one step"
+    echo "    add pri|p PRIORITY \"THING I NEED TO DO +project @context\""
+    echo "      Adds an item and prioritizes it in one step"
     echo ""
     exit
 }
