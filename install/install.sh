@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ## Create symlinks~
 
@@ -9,7 +9,6 @@ ln -sfn ~/.files/zsh/ ~/.zsh
 ### Vim
 ln -sfn ~/.files/vim/vimrc ~/.vimrc
 ln -sfn ~/.files/vim/ ~/.vim
-
 
 ### Git
 ln -sfn ~/.files/git/gitconfig ~/.gitconfig
@@ -38,9 +37,7 @@ case `uname` in
 		fi
 
 		# Install Homebrew
-		# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		brew update
-
 	;;
 	Linux)
 		# Linux
@@ -48,3 +45,8 @@ case `uname` in
 	;;
 
 esac
+
+# Create essential folders
+
+mkdir -p ~/Development
+mkdir -p ~/Screenshots
