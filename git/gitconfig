@@ -23,7 +23,11 @@
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 
-	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+	eol = lf
+	autocrlf = input
+	autocrlf = input
+
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space,blank-at-eol,blank-at-eof
 
 	trustctime = false		# http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/
 	precomposeunicode = false	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
@@ -38,6 +42,12 @@
 [push]
 	default = simple
 	followTags = true
+
+[pull]
+	rebase = preserve
+
+[merge]
+	renormalize = true
 
 ## Color schemes ## 
 
