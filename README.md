@@ -11,15 +11,7 @@ at https://github.com/janesmae/ye_olde_dotfiles/.
 Clone repo from github
 
 ```sh
-$ git clone https://github.com/janesmae/dotfiles.git ~/.files
-```
-
-Update submodules
-
-```sh
-$ cd ~/.files
-$ git submodule init
-$ git submodule update
+$ git clone --recursive https://github.com/janesmae/dotfiles.git ~/.files
 ```
 
 Run installer
