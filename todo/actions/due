@@ -77,19 +77,25 @@ def print_summary(scan_result):
         debug('print_summary: nothing to report')
         return
     print('# Todo.txt Due Items\n')
-    format_str = '    {0}\n'
+    format_str = '{0}\n'
     if len(overdue_lines) > 0:
-        print('Overdue\n-------\n')
+        print("\n========================================")
+        print(" Overdue")
+        print("========================================")
         for l in overdue_lines:
             print(format_str.format(l))
         print('')
     if len(due_lines) > 0:
-        print('Due Today\n---------\n')
+        print("\n========================================")
+        print(" Due Today")
+        print("========================================")
         for l in due_lines:
             print(format_str.format(l))
         print('')
     if len(unknown_lines) > 0:
-        print('Unknown\n-------\n')
+        print("\n========================================")
+        print(" Unknown")
+        print("========================================")
         for l in unknown_lines:
             print(format_str.format(l))
         print('')
