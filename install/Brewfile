@@ -1,39 +1,40 @@
 ## Homebrew applications ##
 
 # Utilities bundles
-brew 'coreutils'
-brew 'moreutils'
-brew 'dockutil'
+brew 'coreutils'		# GNU Coreutils
+brew 'moreutils'		# Missing Coreutils
+brew 'dockutil'			# Manage dock from CLI
 
 # Essential
-brew 'zsh'
-brew 'tmux'
-brew 'git'
-brew 'hub'
-brew 'vim'
+brew 'zsh'			# Better shell
+brew 'tmux'			# Terminal Multiplexer
+brew 'git'			# Version Control
+brew 'hub'			# Github flavoured Git
+brew 'vim'			# Update to Vim8
 
 # Missing Utilities
-brew 'p7zip'
+brew 'p7zip'			# Unzip weird stuff
 brew 'curl'
 brew 'wget'
-brew 'tree'
+brew 'tree'			# Tree view for folder content
 brew 'grep', args: ['with-default-names']
-brew 'jo'
-brew 'jq'
+brew 'jo'			# JSON output from CLI
+brew 'jq'			# CLI JSON processor
 # brew 'htop'
+brew 'pandoc'			# Creating PDF from Markdown
 
 # Gimmicks
 brew 'reattach-to-user-namespace'
-brew 'the_silver_searcher'
-brew 'markdown'
-brew 'ponysay'
-brew 'todo-txt'
+brew 'the_silver_searcher'	# Code searching tool
+brew 'markdown'			# Markdown support
+brew 'ponysay'			# Better than cowsay
+brew 'todo-txt'			# Todo management in text format
 
 # Developer tools
 # brew ansible
 
 # MacAppStore
-brew 'mas'
+brew 'mas'			# CLI version of Mac App Store 
 
 ## Cask applications ##
 
@@ -53,21 +54,22 @@ cask 'caprine'
 cask 'rocket-chat'
 
 # Utilities
-cask 'alfred'
-cask 'atom'
-cask 'spectacle'
-cask 'etcher'
-cask 'keycastr'
-cask 'bartender'
-cask 'numi'
-cask 'little-snitch'
-cask 'appcleaner'
-cask 'gpg-suite'
-cask 'macdown'
-cask 'tunnelblick'
+cask 'alfred'			# Little helper all around
+cask 'spectacle'		# Move and resize windows
+cask 'etcher'			# Writing images to USB and SD cards
+cask 'keycastr'			# Screencasting key presses
+cask 'bartender'		# Menu bar helper
+cask 'numi'			# Text calculator
+cask 'little-snitch'		# Application Firewall
+cask 'appcleaner'		# Application remover
+cask 'gpg-suite'		# Encryption
+cask 'macdown'			# Markdown App
+cask 'mactex'			# LaTeX
+cask 'tunnelblick'		# VPN software
 
 # Developer Tools
-cask 'arduino'
+cask 'atom'			# Gegeral IDE
+cask 'arduino'			# Aruduino IDE
 
 # cask 'vagrant'
 # cask 'docker'
