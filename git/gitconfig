@@ -3,6 +3,7 @@
 [user]
 	name = "Jaan Janesmae"
 	email = "git@janesmae.com"
+	signingkey = "1FB96D1F802061CD868ED7780A5680076D5563BC"
 
 [github]
 	user = janesmae
@@ -37,7 +38,7 @@
 	whitespace = fix
 
 [commit]
-	# gpgsign = true			# https://help.github.com/articles/signing-commits-using-gpg/
+	gpgsign = true			# https://help.github.com/articles/signing-commits-using-gpg/
 
 [push]
 	default = simple
