@@ -15,7 +15,7 @@ servers = (
 	},
 	{
 		address = "irc.hackint.org";
-		port = "9999";
+		port = "6697";
 		chatnet = "hackint";
 		use_ssl = "yes";
 		autoconnect = "yes";
