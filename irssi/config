@@ -1,9 +1,13 @@
+## Networks
+
 chatnets = {
   phractured = { type = "IRC"; nick = "jaan"; };
   hackint = { type = "IRC"; nick = "jaan"; };
   freenode = { type = "IRC"; nick = "secrgb"; };
   estchat = { type = "IRC"; nick = "sun"; };
 };
+
+## Servers
 
 servers = (
   {
@@ -36,6 +40,8 @@ servers = (
     autoconnect = "yes";
   }
 );
+
+## Channels
 
 channels = (
   # Chatnet: phractured
@@ -70,7 +76,9 @@ channels = (
   { name = "#estcat"; chatnet = "estchat"; autojoin = "no"; }
 );
 
-# Central configuration
+conversions = { "#armastusesaal" = "utf-8"; };
+
+## Central configuration
 
 settings = {
   core = {
@@ -92,7 +100,7 @@ settings = {
   };
 };
 
-# Ignores
+## Ignores
 
 ignores = (
   {
@@ -116,7 +124,7 @@ ignores = (
   }
 );
 
-# Command Aliases
+## Command Aliases
 
 aliases = {
 
@@ -250,10 +258,3 @@ aliases = {
   98 = "window goto 98";
   99 = "window goto 99";
 };
-
-# StatusBar Configuration
-
-statusbar = {
-
-};
-conversions = { "#armastusesaal" = "utf-8"; };
