@@ -1,14 +1,65 @@
 chatnets = {
-
+	phractured = { type = "IRC"; nick = "jaan"; };
+	hackint = { type = "IRC"; nick = "jaan"; };
+	freenode = { type = "IRC"; nick = "secrgb"; };
+	estchat = { type = "IRC"; nick = "sun"; };
 };
 
-servers = {
+servers = (
+	{
+		address = "irc.phractured.net";
+		port = "6697";
+		chatnet = "phractured";
+		use_ssl = "yes";
+		autoconnect = "yes";
+	},
+	{
+		address = "irc.hackint.org";
+		port = "9999";
+		chatnet = "hackint";
+		use_ssl = "yes";
+		autoconnect = "yes";
+	},
+	{
+		address = "chat.freenode.net";
+		port = "6697";
+		chatnet = "freenode";
+		use_ssl = "yes";
+		autoconnect = "yes";
+	},
+	{
+		address = "irc.estchat.ee";
+		port = "6697";
+		chatnet = "estchat";
+		use_ssl = "yes";
+		# ssl_verify = "no";
+		autoconnect = "yes";
+	}
+);
 
-};
+channels  = (
+	# Chatnet: phractured
 
-channels  = {
+	{ name = "#phractured"; chatnet = "phractured"; autojoin = "yes"; },
 
-};
+	# Chatnet: hackint
+
+	{ name = "#locc3"; chatnet  = "hackint"; autojoin = "yes"; },
+	{ name = "#gocc3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#chaos-angel"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#nachtschicht"; chatnet  = "hackint"; autojoin = "yes"; },
+	{ name = "#36c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#36c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#35c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#35c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#34c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#34c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+
+	# Chatnet: estchat
+
+	{ name = "#armastusesaal"; chatnet = "estchat"; autojoin = "yes"; },
+	{ name = "#estcat"; chatnet = "estchat"; autojoin = "no"; }
+);
 
 # Central configuration
 
@@ -30,6 +81,20 @@ settings = {
 		autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
 	};
 };
+
+# Ignores
+
+ignores = (
+	{ 
+		level = "JOINS PARTS QUITS";
+		channels = ( 
+			"#chaos-angel", 
+			"#36c3", "#35c3", "#34c3",
+			"#36c3-assemblies", "#35c3-assemblies", "#34c3-assemblies",
+			"#armastusesaal"
+		);
+	}
+);
 
 # Command Aliases
 
