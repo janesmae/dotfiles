@@ -27,7 +27,7 @@ servers = (
 		use_ssl = "yes";
 		autoconnect = "yes";
 	},
-	{¬
+	{
 		address = "irc.estchat.ee";
 		port = "6697";
 		chatnet = "estchat";
