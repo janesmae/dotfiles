@@ -1,11 +1,11 @@
 chatnets = {
 	phractured = { type = "IRC"; nick = "jaan"; };
 	hackint = { type = "IRC"; nick = "jaan"; };
-	freenode = { type = "IRC"; nick = "jaan"; };
-
+	freenode = { type = "IRC"; nick = "secrgb"; };
+	estchat = { type = "IRC"; nick = "sun"; };
 };
 
-servers = {
+servers = (
 	{
 		address = "irc.phractured.net";
 		port = "6697";
@@ -26,9 +26,16 @@ servers = {
 		chatnet = "freenode";
 		use_ssl = "yes";
 		autoconnect = "yes";
+	},
+	{¬
+		address = "irc.estchat.ee";
+		port = "6697";
+		chatnet = "estchat";
+		use_ssl = "yes";
+		# ssl_verify = "no";
+		autoconnect = "no";
 	}
-
-};
+);
 
 channels  = {
 
