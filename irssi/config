@@ -55,6 +55,15 @@ channels  = (
 	{ name = "#34c3"; chatnet = "hackint"; autojoin = "yes"; },
 	{ name = "#34c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
 
+	# Freenode
+
+	{ name = "#centos"; chatnet = "freenode"; autojoin = "yes"; },
+	{ name = "#centos-social"; chatnet = "freenode"; autojoin = "yes"; },
+	{ name = "#debian"; chatnet = "freenode"; autojoin = "yes"; },
+	{ name = "#irssi"; chatnet = "freenode"; autojoin = "yes"; },
+	{ name = "#vim"; chatnet = "freenode"; autojoin = "yes"; },
+	{ name = "#machomebrew"; chatnet = "freenode"; autojoin = "yes"; },
+
 	# Chatnet: estchat
 
 	{ name = "#armastusesaal"; chatnet = "estchat"; autojoin = "yes"; },
@@ -88,9 +97,8 @@ ignores = (
 	{ 
 		level = "JOINS PARTS QUITS";
 		channels = ( 
-			"#chaos-angel", 
-			"#36c3", "#35c3", "#34c3",
-			"#36c3-assemblies", "#35c3-assemblies", "#34c3-assemblies",
+			"#chaos-angel", "#36c3", "#35c3", "#34c3","#36c3-assemblies", "#35c3-assemblies", "#34c3-assemblies",
+			"#centos", "#centos-social", "#debian", "#irssi", "#vim", "#machomebrew",
 			"#armastusesaal"
 		);
 	}
