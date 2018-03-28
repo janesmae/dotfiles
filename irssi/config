@@ -33,13 +33,33 @@ servers = (
 		chatnet = "estchat";
 		use_ssl = "yes";
 		# ssl_verify = "no";
-		autoconnect = "no";
+		autoconnect = "yes";
 	}
 );
 
-channels  = {
+channels  = (
+	# Chatnet: phractured
 
-};
+	{ name = "#phractured"; chatnet = "phractured"; autojoin = "yes"; },
+
+	# Chatnet: hackint
+
+	{ name = "#locc3"; chatnet  = "hackint"; autojoin = "yes"; },
+	{ name = "#gocc3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#chaos-angel"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#nachtschicht"; chatnet  = "hackint"; autojoin = "yes"; },
+	{ name = "#36c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#36c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#35c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#35c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#34c3"; chatnet = "hackint"; autojoin = "yes"; },
+	{ name = "#34c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
+
+	# Chatnet: estchat
+
+	{ name = "#armastusesaal"; chatnet = "estchat"; autojoin = "yes"; },
+	{ name = "#estcat"; chatnet = "estchat"; autojoin = "no"; }
+);
 
 # Central configuration
 
@@ -61,6 +81,20 @@ settings = {
 		autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
 	};
 };
+
+# Ignores
+
+ignores = (
+	{ 
+		level = "JOINS PARTS QUITS";
+		channels = ( 
+			"#chaos-angel", 
+			"#36c3", 
+			"#35c3", 
+			"#34c3" 
+		);
+	}
+);
 
 # Command Aliases
 
