@@ -44,9 +44,9 @@ aliases = {
 
 	cl = "clear";
 	ig = "ignore";
-  	uniq = "unignore";
+ 	uniq = "unignore";
 	n = "names";	
-	wl = "window list"
+	wl = "window list";
 
 	# Stalking
 
