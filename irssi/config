@@ -1,12 +1,34 @@
 chatnets = {
 
 };
+
 servers = {
 
 };
 
 channels  = {
 
+};
+
+# Central configuration
+
+settings = {
+	core = {
+		real_name = "bot";
+		user_name = "bot";
+		nick = "bot";
+		timestamp_format = "%H:%M:%S";
+	};
+	"fe-text" = {
+		actlist_sort = "refnum";
+		term_force_colors = "yes";
+		scrollback_time = "7day ";
+	};
+	"fe-common/core" = {
+		autolog = "yes";
+		autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
+		autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
+	};
 };
 
 # Command Aliases
@@ -16,17 +38,22 @@ aliases = {
 	# General
 
 	j = "join";
-	n = "names";
-	wc = "window close";
-	quit = "echo Don't do this at home!";
 	leave = "part";
+	quit = "echo Don't do this at home!";
+	wc = "window close";
+
+	cl = "clear";
+	ig = "ignore";
+  	uniq = "unignore";
+	n = "names";	
+	wl = "window list"
 
 	# Stalking
 
 	host = "userhost";
 	last = "lastlog";
 	w = "who";
-	wl = "window list";
+	wi = "whois";
 	ww = "whowas";
 
 	# Operator
@@ -139,23 +166,8 @@ aliases = {
 	99 = "window goto 99";
 };
 
-# Central configuration
+# StatusBar Configuration
 
-settings = {
-	core = {
-		real_name = "bot";
-		user_name = "bot";
-		nick = "bot";
-		timestamp_format = "%H:%M:%S";
-	};
-	"fe-text" = {
-		actlist_sort = "refnum";
-		term_force_colors = "yes";
-		scrollback_time = "7day ";
-	};
-	"fe-common/core" = {
-		autolog = "yes";
-		autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
-		autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
-	};
+statusbar = {
+
 };
