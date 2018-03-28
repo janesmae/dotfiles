@@ -89,9 +89,9 @@ ignores = (
 		level = "JOINS PARTS QUITS";
 		channels = ( 
 			"#chaos-angel", 
-			"#36c3", 
-			"#35c3", 
-			"#34c3" 
+			"#36c3", "#35c3", "#34c3",
+			"#36c3-assemblies", "#35c3-assemblies", "#34c3-assemblies",
+			"#armastusesaal"
 		);
 	}
 );
