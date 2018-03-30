@@ -75,12 +75,7 @@ channels = (
 
 windows = {
   1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
-  2 = { name = "hilight"; sticky = "yes"; };
 };
-
-## Recode
-
-conversions = { "#armastusesaal" = "utf-8"; };
 
 ## Central configuration
 
@@ -92,8 +87,8 @@ settings = {
     timestamp_format = "%H:%M:%S";
     recode = "yes";
     recode_autodetect_utf8 = "yes";
-    recode_fallback = "UTF-8";
-    recode_out_default_charset = "UTF-8";
+    recode_fallback = "ISO-8859-15";
+    recode_out_default_charset = "ISO-8859-15";
     recode_transliterate = "yes";
   };
   "fe-text" = {
