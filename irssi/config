@@ -36,7 +36,6 @@ servers = (
     port = "6697";
     chatnet = "estchat";
     use_ssl = "yes";
-    # ssl_verify = "no";
     autoconnect = "yes";
   }
 );
@@ -45,11 +44,9 @@ servers = (
 
 channels = (
   # Chatnet: phractured
-
   { name = "#phractured"; chatnet = "phractured"; autojoin = "yes"; },
 
   # Chatnet: hackint
-
   { name = "#locc3"; chatnet = "hackint"; autojoin = "yes"; },
   { name = "#gocc3"; chatnet = "hackint"; autojoin = "yes"; },
   { name = "#chaos-angel"; chatnet = "hackint"; autojoin = "yes"; },
@@ -62,7 +59,6 @@ channels = (
   { name = "#34c3-assemblies"; chatnet = "hackint"; autojoin = "yes"; },
 
   # Freenode
-
   { name = "#centos"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#centos-social"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#debian"; chatnet = "freenode"; autojoin = "yes"; },
@@ -71,12 +67,15 @@ channels = (
   { name = "#machomebrew"; chatnet = "freenode"; autojoin = "yes"; },
 
   # Chatnet: estchat
-
   { name = "#armastusesaal"; chatnet = "estchat"; autojoin = "yes"; },
   { name = "#estcat"; chatnet = "estchat"; autojoin = "no"; }
 );
 
-conversions = { "#armastusesaal" = "utf-8"; };
+## Windows
+
+windows = {
+  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+};
 
 ## Central configuration
 
@@ -86,6 +85,11 @@ settings = {
     user_name = "bot";
     nick = "bot";
     timestamp_format = "%H:%M:%S";
+    recode = "yes";
+    recode_autodetect_utf8 = "yes";
+    recode_fallback = "ISO-8859-15";
+    recode_out_default_charset = "ISO-8859-15";
+    recode_transliterate = "yes";
   };
   "fe-text" = {
     actlist_sort = "refnum";
@@ -96,13 +100,23 @@ settings = {
     autolog = "yes";
     autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
     autolog_path = "~/.irssi/logs/%Y/$tag/$0.%m-%d.log";
-    term_charset = "utf-8";
+    term_charset = "UTF-8";
+    beep_msg_level = "NOTICE MSGS HILIGHT";
+    beep_when_away = "no";
+    beep_when_window_active = "no";
   };
 };
+
+## Hilights
+
+hilights = (
+  { text = "$N"; nick = "yes"; word = "yes"; fullword = "yes"; }
+);
 
 ## Ignores
 
 ignores = (
+  { level = "CTCPS DCC DCCMSGS INVITES"; },
   {
     level = "JOINS PARTS QUITS";
     channels = (
@@ -258,3 +272,7 @@ aliases = {
   98 = "window goto 98";
   99 = "window goto 99";
 };
+
+## Logs 
+
+logs = { };
