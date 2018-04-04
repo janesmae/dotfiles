@@ -39,7 +39,7 @@ else
   end until today != yesterday
 
   puts "\n========================================"
-  puts " Yesterday: #{yesterday}"
+  puts " Recently: #{yesterday}"
   puts "========================================"
 
   #dump out the list
