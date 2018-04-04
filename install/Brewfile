@@ -31,7 +31,7 @@ brew 'ponysay'			# Better than cowsay
 brew 'todo-txt'			# Todo management in text format
 
 # Developer tools
-# brew ansible
+brew 'ansible'
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store 
