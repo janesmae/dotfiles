@@ -20,39 +20,3 @@ Run installer
 $ source ~/.files/install/install.sh
 ```
 
-## Installer basics 
-
-### zsh
-
-- file `~/.files/zsh/zshrc` should be symlinked as `~/.zshrc`
-- folder `~/.files/zsh` should be symlinked as `~/.zsh`
-
-### vim
-
-- file `~/.files/vim/vimrc` should be symlinked as `~/.vimmrc`
-- folder `~/.files/vim` should be symlinked as `~/.vim`
-
-### git
-
-- file `~/.files/git/gitconfig` should be symlinked as `~/.gitconfig`
-- file `~/.files/git/gitignore` should be symlinked as `~/.gitconfig`
-- file `~/.files/git/gitattributes` should be symlinked as `~/.gitattributes`
-
-### tmux
-
-- file `~/.files/tmux/tmux.conf` should be symlinked as `~/.tmux.conf`
-
-### irssi
-
-- folder `~/.files/irssi` should be symlinked as `~/.irssi`
-
-### todo.txt
-
-- folder `~/.files/todo` should be symlinked as `~/.todo`
-- ~~folder `~/.todo-data` should be created~~
-- folder `~/.private/todo-data` should be symlinked as `~/.todo-data`
-
-### MacOS
-
-- Install HomeBrew
-- Install software with help of brewfile
