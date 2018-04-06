@@ -23,8 +23,11 @@ ln -sfn ~/.files/irssi/ ~/.irssi
 
 ### Todo.txt
 ln -sfn ~/.files/todo/ ~/.todo
-# mkdir -p ~/.todo-data
 ln -sfn ~/.private/todo-data ~/.todo-data
+
+### Ansible
+ln -sfn ~/.files/ansible/ansible.cfg ~/.ansible.cfg
+ln -sfn ~/.private/ansible ~/.ansible
 
 # OS specific setup
 case `uname` in
