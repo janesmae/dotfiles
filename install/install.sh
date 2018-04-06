@@ -39,8 +39,14 @@ case `uname` in
 			ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		fi
 
-		# Install Homebrew
+		# Install Homebrew updates
 		brew update
+
+		# Install all most applications using homebrew
+		brew bundle install --file=~/.files/install/Brewfile
+
+		# Set up your mac environment
+		source ~/.files/macos.sh
 	;;
 	Linux)
 		# Linux
