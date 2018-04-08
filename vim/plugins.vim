@@ -9,6 +9,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vimoutliner/vimoutliner'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vitalk/vim-simple-todo'
+Plugin 'pearofducks/ansible-vim'
 
 call vundle#end()
 filetype plugin indent on
