@@ -33,7 +33,7 @@ case `uname` in
 		alias ls="gls -lphH --color=auto"
 
 		# Macos dns flush
-		alias dns_flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed"
+		alias dns_flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
 
 		# Mute: http://xkcd.com/530/
 		alias mute="osascript -e 'set volume output muted true'"
