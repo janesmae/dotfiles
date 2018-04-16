@@ -29,6 +29,9 @@ ln -sfn ~/.private/todo-data ~/.todo-data
 ln -sfn ~/.files/ansible/ansible.cfg ~/.ansible.cfg
 ln -sfn ~/.private/ansible ~/.ansible
 
+### SSH
+ln -sfn ~/.private/ssh ~/.ssh
+
 # OS specific setup
 case `uname` in
 	Darwin)
