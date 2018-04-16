@@ -53,6 +53,9 @@ cask 'skype'
 cask 'caprine'
 cask 'rocket-chat'
 
+# Media
+cask 'soundcleod'		# Soundcloud desktop application
+
 # Utilities
 cask 'alfred'			# Little helper all around
 cask 'spectacle'		# Move and resize windows

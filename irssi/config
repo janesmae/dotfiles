@@ -73,9 +73,7 @@ channels = (
 
 ## Windows
 
-windows = {
-  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
-};
+windows = { 1 = { immortal = "yes"; name = "(status)"; level = "ALL"; }; };
 
 ## Central configuration
 
@@ -104,6 +102,7 @@ settings = {
     beep_msg_level = "NOTICE MSGS HILIGHT";
     beep_when_away = "no";
     beep_when_window_active = "no";
+    theme = "pipeline";
   };
 };
 
