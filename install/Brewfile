@@ -32,6 +32,7 @@ brew 'todo-txt'			# Todo management in text format
 
 # Developer tools
 brew 'ansible'
+brew 'asciinema'
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store 
