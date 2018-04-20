@@ -22,13 +22,14 @@ brew 'jo'			# JSON output from CLI
 brew 'jq'			# CLI JSON processor
 # brew 'htop'
 brew 'pandoc'			# Creating PDF from Markdown
+brew 'qrencode'			# Creating QR codes
+brew 'todo-txt'			# Todo management in text format
 
 # Gimmicks
 brew 'reattach-to-user-namespace'
 brew 'the_silver_searcher'	# Code searching tool
 brew 'markdown'			# Markdown support
 brew 'ponysay'			# Better than cowsay
-brew 'todo-txt'			# Todo management in text format
 
 # Developer tools
 brew 'ansible'
