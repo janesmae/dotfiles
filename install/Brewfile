@@ -8,8 +8,6 @@ brew 'dockutil'			# Manage dock from CLI
 # Essential
 brew 'zsh'			# Better shell
 brew 'tmux'			# Terminal Multiplexer
-brew 'git'			# Version Control
-brew 'hub'			# Github flavoured Git
 brew 'vim'			# Update to Vim8
 
 # Missing Utilities
@@ -22,16 +20,21 @@ brew 'jo'			# JSON output from CLI
 brew 'jq'			# CLI JSON processor
 # brew 'htop'
 brew 'pandoc'			# Creating PDF from Markdown
-
-# Gimmicks
-brew 'reattach-to-user-namespace'
-brew 'the_silver_searcher'	# Code searching tool
-brew 'markdown'			# Markdown support
-brew 'ponysay'			# Better than cowsay
+brew 'qrencode'			# Creating QR codes
 brew 'todo-txt'			# Todo management in text format
 
 # Developer tools
-brew 'ansible'
+brew 'git'			# Git
+brew 'hub'			# Github flavoured Git
+brew 'git-standup'		# Better git log, multiple repo support
+brew 'ansible'			# App deployment, configuration management and orchestration 
+brew 'docker'			# Container platform
+
+# Gimmicks
+brew 'markdown'			# Markdown support
+brew 'ponysay'			# Better than cowsay
+brew 'the_silver_searcher'	# Code searching tool, like grep
+brew 'asciinema'
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store 
@@ -41,17 +44,18 @@ brew 'mas'			# CLI version of Mac App Store
 cask_args appdir: '/Applications'
 
 # Terminal
-cask 'iterm2'
+cask 'iterm2'			# Replacement terminal with shell integration
 
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
 
 # Communications
-cask 'slack'
-cask 'skype'
-cask 'caprine'
-cask 'rocket-chat'
+cask 'slack'			# Team chats
+cask 'skype'			# Online video calls, chat
+# cask 'caprine'		# App for FB messenger
+cask 'rocket-chat'		# Open source slack alternative
+cask 'signal'			# Encrypted communications
 
 # Media
 cask 'soundcleod'		# Soundcloud desktop application
@@ -75,8 +79,6 @@ cask 'atom'			# Gegeral IDE
 cask 'arduino'			# Aruduino IDE
 
 # cask 'vagrant'
-# cask 'docker'
-
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 
