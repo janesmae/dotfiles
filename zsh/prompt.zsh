@@ -79,7 +79,7 @@ prompt_host() {
 }
 
 prompt_dir() {
-	prompt_segment 252 232 ' %B%~%b '
+	prompt_segment 240 255 ' %~ '
 }
 
 prompt_git() {
@@ -107,7 +107,7 @@ prompt_git() {
 	fi
 
 	if [[ -n $gitstatus ]]; then
-		rprompt_segment 238 255 "$gitstatus"
+		rprompt_segment 240 255 "$gitstatus"
 	fi
 
 	if [[ -n $ref ]]; then
