@@ -17,6 +17,9 @@ alias du='du -h -c'		# disk usage, for a folder
 # TypoFix
 alias gti='git'
 
+# Diff
+alias diff='icdiff'
+
 # Start using Vim8
 alias vi=vim
 alias view=view -M		# Use view as unmodifiable
