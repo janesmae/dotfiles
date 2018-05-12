@@ -26,6 +26,8 @@ brew 'todo-txt'			# Todo management in text format
 # Developer tools
 brew 'git'			# Git
 brew 'hub'			# Github flavoured Git
+brew 'icdiff'			# Improved colored diff
+brew 'iproute2mac'		# Run "ip addr show" on mac
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'ansible'			# App deployment, configuration management and orchestration 
 brew 'docker'			# Container platform
