@@ -8,15 +8,14 @@ at https://github.com/janesmae/ye_olde_dotfiles/.
 
 ## Getting started
 
-Clone repo from github
-
 ```sh
-$ git clone --recursive https://github.com/janesmae/dotfiles.git ~/.files
+$ git clone --recursivees.git ~/.files
 ```
 
 Run installer
 
 ```sh
-$ source ~/.files/install/install.sh
+$ source ~/.files/instal.sh
+$ brew bundle install
 ```
 
