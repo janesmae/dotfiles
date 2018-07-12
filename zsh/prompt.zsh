@@ -63,7 +63,7 @@ prompt_user() {
 	local color
 	[[ $(print -P "%#") == '#' ]] && color=9 || color=190
 	# [[ $UID == 0 || $EUID == 0 ]] && color="9" || color="190"
-	prompt_segment $color 232 " %B%n%b "
+	prompt_segment $color 232 "%B %n %b"
 }
 
 prompt_host() {
@@ -75,7 +75,7 @@ prompt_host() {
 		color=39
 		prompt="%m"
 	fi
-	prompt_segment $color 232 " %B$prompt%b "
+	prompt_segment $color 232 "%B $prompt %b"
 }
 
 prompt_dir() {
