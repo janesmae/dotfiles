@@ -9,7 +9,7 @@ at https://github.com/janesmae/ye_olde_dotfiles/.
 ## Getting started
 
 ```sh
-$ git clone --recursivees.git ~/.files
+$ git clone --recursive https://github.com/janesmae/dotfiles.git ~/.files
 ```
 
 Run installer
