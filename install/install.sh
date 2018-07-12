@@ -62,3 +62,6 @@ esac
 
 mkdir -p ~/Development
 mkdir -p ~/Screenshots
+
+# Install Vim Plugins
+vim +PluginInstall +qall
