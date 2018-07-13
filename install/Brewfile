@@ -18,10 +18,10 @@ brew 'tree'			# Tree view for folder content
 brew 'grep', args: ['with-default-names']
 brew 'jo'			# JSON output from CLI
 brew 'jq'			# CLI JSON processor
-# brew 'htop'
 brew 'pandoc'			# Creating PDF from Markdown
-brew 'qrencode'			# Creating QR codes
 brew 'todo-txt'			# Todo management in text format
+# brew 'htop'
+# brew 'qrencode'			# Creating QR codes
 
 # Developer tools
 brew 'git'			# Git
@@ -32,13 +32,13 @@ brew 'aria2'			# Multi-protocol & multi-source command-line download utility
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'ansible'			# App deployment, configuration management and orchestration 
-brew 'docker'			# Container platform
+# brew 'docker'			# Container platform
+# brew 'asciinema'		# Commandline as a presentation or tutorial
 
 # Gimmicks
 brew 'markdown'			# Markdown support
 brew 'ponysay'			# Better than cowsay
 brew 'the_silver_searcher'	# Code searching tool, like grep
-brew 'asciinema'
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store 
@@ -57,9 +57,9 @@ cask 'google-chrome'
 # Communications
 cask 'slack'			# Team chats
 cask 'skype'			# Online video calls, chat
-# cask 'caprine'		# App for FB messenger
-cask 'rocket-chat'		# Open source slack alternative
 cask 'signal'			# Encrypted communications
+# cask 'rocket-chat'		# Open source slack alternative
+# cask 'caprine'		# App for FB messenger
 
 # Media
 cask 'soundcleod'		# Soundcloud desktop application
@@ -74,19 +74,20 @@ cask 'numi'			# Text calculator
 cask 'little-snitch'		# Application Firewall
 cask 'appcleaner'		# Application remover
 cask 'gpg-suite'		# Encryption
-cask 'macdown'			# Markdown App
-cask 'mactex'			# LaTeX
 cask 'tunnelblick'		# VPN software
+# cask 'macdown'			# Markdown App
+# cask 'mactex'			# LaTeX
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
-cask 'arduino'			# Aruduino IDE
-
+# cask 'arduino'			# Aruduino IDE
 # cask 'vagrant'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
-
 # cask 'vmware-remote-console'
+
+# 3D Printing / Designer
+# cask 'ultimaker-cura'
 
 ## Fonts
 
@@ -97,19 +98,19 @@ cask "caskroom/fonts/font-hack-nerd-font"
 # E-mail
 mas 'Airmail 3',	id: 918858936
 
-# Office alternative
-mas 'Pages',		id: 409201541
-mas 'Numbers',		id: 409203825
-mas 'Keynote',		id: 409183694
-
 # Utilities
 mas '1Password', 	id: 443987910
 mas 'Next Meeting',	id: 1017470484
-mas 'Daisydisk',	id: 411643860
-mas 'Amphetamine',	id: 937984704
 mas 'Magnet',		id: 441258766
 mas 'HazeOver',		id: 430798174
 mas 'The Unarchiver',	id: 425424353
+# mas 'Daisydisk',	id: 411643860
+# mas 'Amphetamine',	id: 937984704
+
+# Office alternative
+# mas 'Pages',		id: 409201541
+# mas 'Numbers',		id: 409203825
+# mas 'Keynote',		id: 409183694
 
 # Developer Tools
 mas 'XCode',		id: 497799835
