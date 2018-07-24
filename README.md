@@ -22,5 +22,5 @@ $ brew bundle install
 Last but not least: change shell
 
 ```sh
-chsh -s /usr/local/bin/zsh
+chsh -s /bin/zsh
 ```
