@@ -15,7 +15,7 @@ $ git clone --recursive https://github.com/janesmae/dotfiles.git ~/.files
 Run installer
 
 ```sh
-$ source ~/.files/instal.sh
+$ source ~/.files/install.sh
 $ brew bundle install
 ```
 
