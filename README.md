@@ -19,3 +19,8 @@ $ source ~/.files/install/install.sh
 $ brew bundle install
 ```
 
+Last but not least: change shell
+
+```sh
+chsh -s /usr/local/bin/zsh
+```
