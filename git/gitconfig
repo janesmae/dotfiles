@@ -38,6 +38,7 @@
 	whitespace = fix
 
 [commit]
+	template = ~/.gitmessage
 	gpgsign = true			# https://help.github.com/articles/signing-commits-using-gpg/
 
 [push]

@@ -14,6 +14,7 @@ ln -sfn ~/.files/vim/ ~/.vim
 ln -sfn ~/.files/git/gitconfig ~/.gitconfig
 ln -sfn ~/.files/git/gitignore ~/.gitignore
 ln -sfn ~/.files/git/gitattributes ~/.gitattributes
+ln -sfn ~/.files/git/gitmessage ~/.gitmessage
 
 ### Tmux
 ln -sfn ~/.files/tmux/tmux.conf ~/.tmux.conf
