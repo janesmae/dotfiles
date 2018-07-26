@@ -24,3 +24,11 @@ Last but not least: change shell
 ```sh
 chsh -s /bin/zsh
 ```
+
+## License
+
+The content of this repository is released under the **MIT License** by **Jaan Janesmae**.
+
+You can find a copy of this license in [LICENSE][license] file
+or [https://opensource.org/licenses/MIT][license_web].
+
