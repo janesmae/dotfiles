@@ -51,6 +51,13 @@
 [merge]
 	renormalize = true
 
+[diff]
+	tool = vimdiff
+	renames = copies
+
+[difftool]
+        prompt = false
+
 ## Color schemes ## 
 
 [color]
