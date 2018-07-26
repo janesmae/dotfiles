@@ -19,6 +19,8 @@ SYMBOL_BRANCH="\ue0a0"
 SYMBOL_CROSS="\uf00d"
 SYMBOL_GEAR="\uf013"
 
+SYMBOL_STASH="\ufb12"
+
 # Prompts
 
 prompt_segment() {
@@ -86,8 +88,14 @@ prompt_git() {
 	local fg bg ref gitst gitstatus
 	ref=$(=git symbolic-ref HEAD 2> /dev/null)
 	gitst="$(=git status 2> /dev/null)"
+	stash="$(=git stash list 2> /dev/null)"
+
 	bg=28
 	fg=255
+
+	if [[ ${stash} =~ "stash" ]]; then
+		gitstatus="$gitstatus$SYMBOL_STASH"
+	fi
 
 	if [[ ${gitst} =~ "Changes to be committed" ]]; then
 		bg=226
