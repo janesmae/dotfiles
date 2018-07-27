@@ -32,3 +32,5 @@ The content of this repository is released under the **MIT License** by **Jaan J
 You can find a copy of this license in [LICENSE][license] file
 or [https://opensource.org/licenses/MIT][license_web].
 
+[license]:	./LICENSE
+[license_web]:	https://opensource.org/licenses/MIT
