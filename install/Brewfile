@@ -28,10 +28,10 @@ brew 'git'			# Git
 brew 'hub'			# Github flavoured Git
 brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
-brew 'aria2'			# Multi-protocol & multi-source command-line download utility
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'ansible'			# App deployment, configuration management and orchestration 
+# brew 'aria2'			# Multi-protocol & multi-source command-line download utility
 # brew 'docker'			# Container platform
 # brew 'asciinema'		# Commandline as a presentation or tutorial
 
