@@ -28,10 +28,10 @@ brew 'git'			# Git
 brew 'hub'			# Github flavoured Git
 brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
-brew 'aria2'			# Multi-protocol & multi-source command-line download utility
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'ansible'			# App deployment, configuration management and orchestration 
+# brew 'aria2'			# Multi-protocol & multi-source command-line download utility
 # brew 'docker'			# Container platform
 # brew 'asciinema'		# Commandline as a presentation or tutorial
 
@@ -99,11 +99,11 @@ cask "caskroom/fonts/font-hack-nerd-font"
 mas 'Airmail 3',	id: 918858936
 
 # Utilities
-mas '1Password', 	id: 443987910
 mas 'Next Meeting',	id: 1017470484
 mas 'Magnet',		id: 441258766
 mas 'HazeOver',		id: 430798174
 mas 'The Unarchiver',	id: 425424353
+# mas '1Password', 	id: 443987910		# 1Password 6
 # mas 'Daisydisk',	id: 411643860
 # mas 'Amphetamine',	id: 937984704
 
