@@ -50,7 +50,7 @@ case `uname` in
 		brew bundle install --file=~/.files/install/Brewfile
 
 		# Set up your mac environment
-		source ~/.files/macos.sh
+		source ~/.files/install/macos.sh
 	;;
 	Linux)
 		# Linux
