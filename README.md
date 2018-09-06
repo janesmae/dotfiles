@@ -1,36 +1,37 @@
 # Dotfiles
 
-My .files including vim, zsh, git, and tmux configurations. Feel free to use it
-and even make suggestions, however I may decline if there's not value to me. 
+These are my .files including vim, zsh, git, and tmux configurations. Check out [install](install_branch) branch for the installer script and installation guide.
 
-I'm starting on a fresh page with this repo. My old .files are still available 
-at https://github.com/janesmae/ye_olde_dotfiles/.
+Feel free to use it and even make suggestions, however I may decline changes if there's no value to me.
 
-## Getting started
+My old .files are still available at https://github.com/janesmae/ye_olde_dotfiles/.
 
-```sh
-$ git clone --recursive https://github.com/janesmae/dotfiles.git ~/.files
-```
+## Support
 
-Run installer
+Please [open an issue](https://github.com/janesmae/dotfiles/issues/new/choose) to receive support for this project.
 
-```sh
-$ source ~/.files/install/install.sh
-$ brew bundle install
-```
+## Contributing
 
-Last but not least: change shell
+Please read [CONTRIBUTING.md][contributing] for details on our Contribution Guidelines.
 
-```sh
-chsh -s /bin/zsh
-```
+The process for submitting pull requests:.
+
+* [Fork it!](fork)
+* Create your feature branch: `git checkout -b my-new-feature`
+* Commit your changes: `git commit -am 'Add some feature'`
+* Push to the branch: `git push origin my-new-feature`
+* Submit a pull request
+
+Also, check out the [CHANGELOG][changelog] for recent changes.
 
 ## License
 
-The content of this repository is released under the **MIT License** by **Jaan Janesmae**.
+The content of this repository is **&copy; Jaan Janesmae** and released under **MIT License**.<br>
+You can find a copy of this license in [LICENSE][license] file or [https://opensource.org/licenses/MIT][license_web].
 
-You can find a copy of this license in [LICENSE][license] file
-or [https://opensource.org/licenses/MIT][license_web].
-
-[license]:	./LICENSE
-[license_web]:	https://opensource.org/licenses/MIT
+[contributing]:   ./CONTRIBUTING.md
+[license]:        ./LICENSE
+[license_web]:    https://opensource.org/licenses/MIT
+[changelog]:      ./CHANGELOG.md
+[install_branch]: https://github.com/janesmae/dotfiles/tree/install
+[fork]:           https://github.com/janesmae/dotfiles/fork
