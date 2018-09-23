@@ -1,5 +1,13 @@
 ##  Zsh general config ##
 
+# Fix language issue
+
+if [[ -z "$LC_ALL" ]]; then
+	export LC_ALL='en_US.UTF-8'
+fi
+
+# Include specialized configs
+
 source ~/.zsh/colors.zsh
 source ~/.zsh/setopts.zsh
 source ~/.zsh/prompt.zsh
