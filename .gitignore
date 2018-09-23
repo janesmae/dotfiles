@@ -2,3 +2,4 @@ vim/bundle
 zsh/cache
 zsh/plugins
 irssi/logs
+ansible/tmp
