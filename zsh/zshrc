@@ -7,10 +7,13 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/history.zsh
 
-# Zsh Autosuggestions
-source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Zsh Plugins
+
+test -e "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" && source "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"				# Auto Suggestions
+test -e "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" && source "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"		# Syntax highlighting
 
 # OS specific configurations
+
 case `uname` in
 	Darwin)
     		# OS X
