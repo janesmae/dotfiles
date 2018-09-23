@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Default folders for Ansible
 - Default config for ssh
 - Custom filetype config for ViM
+- Zsh plugin for Syntax highlighting
 
 ### Changed
 - README - removed installation related detailed info
