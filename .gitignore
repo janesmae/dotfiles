@@ -3,3 +3,4 @@ zsh/cache
 zsh/plugins
 irssi/logs
 ansible/tmp
+ssh/known_hosts
