@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Changes in existing functionality
 - Tmux theme conf location
+- Minor change to git log behaviour
 
 ### Deprecated
 - Soon-to-be removed feature
