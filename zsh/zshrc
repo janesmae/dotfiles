@@ -20,21 +20,3 @@ source ~/.zsh/history.zsh
 test -e "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" && source "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"				# Auto Suggestions
 test -e "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" && source "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"		# Syntax highlighting
 
-# OS specific configurations
-
-case `uname` in
-	Darwin)
-    		# OS X
-
-		# iTerm shell integration
-		source ~/.zsh/iterm.zsh
-
-	;;
-	Linux)
-		# Linux
-
-	;;
-
-esac
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
