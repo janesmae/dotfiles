@@ -11,7 +11,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Changes in existing functionality
-- Submodules - Updated git submodules to the latest commit
 
 ### Deprecated
 - Soon-to-be removed feature
@@ -21,10 +20,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - Bugfix
-- Language issues - LC_ALL was not set properly
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.0.2] - 2018-09-25
+### Changed
+- Submodules - Updated git submodules to the latest commit
+
+### Fixed
+- Language issues - LC_ALL was not set properly
 
 
 ## [1.0.1] - 2018-09-23
