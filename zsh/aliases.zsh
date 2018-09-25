@@ -14,9 +14,6 @@ alias egrep="egrep --color=auto"
 alias df='df -h'		# disk free, in Gigabytes, not bytes
 alias du='du -h -c'		# disk usage, for a folder
 
-# TypoFix
-alias gti='git'
-
 # Diff
 alias diff='icdiff'
 
@@ -45,7 +42,7 @@ case `uname` in
 		alias update!="brew update;brew upgrade;brew cleanup;brew doctor;brew cask upgrade;mas upgrade"
 
 		# todo.txt
-		alias t=todo.sh
+		# alias t=todo.sh
 
 	;;
 	Linux)

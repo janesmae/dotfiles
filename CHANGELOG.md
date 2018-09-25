@@ -14,10 +14,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Deprecated
 - Soon-to-be removed feature
+- Zsh alias for todo.txt
 
 ### Removed
 - Removed feature
-- iterm2 Integration
+- Iterm2 Integration
+- Zsh aliases typofix for Git
 
 ### Fixed
 - Bugfix
