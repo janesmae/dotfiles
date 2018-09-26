@@ -15,7 +15,7 @@
 	d = difftool
 	df = diff
 	b = branch
-	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+	l = log --pretty=oneline --max-count=50 --graph --abbrev-commit --decorate --all
 
 	tags = tag --list
 	branches = branch --all
