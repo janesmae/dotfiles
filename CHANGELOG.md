@@ -13,6 +13,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Changes in existing functionality
 - Moving to romaintic versioning scheme
 - Zsh environment related settings now confirmed into one file
+- Zsh history is only kept for non-privileged user accounts
 
 ### Deprecated
 - Soon-to-be removed feature
