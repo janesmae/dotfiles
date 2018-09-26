@@ -11,24 +11,32 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Changes in existing functionality
-- Tmux theme conf location
-- Minor change to git log behaviour
-- Contributor Covenant Code of Conduct replaced with the much more ethical Code of Merit
 
 ### Deprecated
 - Soon-to-be removed feature
-- Zsh alias for todo.txt
 
 ### Removed
 - Removed feature
-- Iterm2 Integration
-- Zsh aliases typofix for Git
 
 ### Fixed
 - Bugfix
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.0.3] - 2018-09-26
+### Changed
+- Tmux theme conf location
+- Minor change to git log behaviour
+- Contributor Covenant Code of Conduct replaced with the much more ethical Code of Merit
+
+### Deprecated
+- Zsh alias for todo.txt
+
+### Removed
+- Iterm2 Integration
+- Zsh aliases typofix for Git
 
 
 ## [v1.0.2] - 2018-09-25
