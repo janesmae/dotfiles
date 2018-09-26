@@ -1,5 +1,5 @@
 # Contribution Guidelines
-> Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+> Please note that this project is released with a [Code of Merit](CODE_OF_MERIT.md). By participating in this project you agree to abide by its terms.
 
 
 Please ensure your pull request adheres to the following guidelines:
@@ -13,4 +13,4 @@ Please ensure your pull request adheres to the following guidelines:
 
 ---
 
-**Working on your first Pull Request?** You can learn how from this free series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+**Want to contribute to open source?**  [Here's a guide to making open source contributions, for first-timers and for veterans.](https://opensource.guide/how-to-contribute/).

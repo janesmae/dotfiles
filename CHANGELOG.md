@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Changes in existing functionality
 - Tmux theme conf location
 - Minor change to git log behaviour
+- Contributor Covenant Code of Conduct replaced with the much more ethical Code of Merit
 
 ### Deprecated
 - Soon-to-be removed feature
