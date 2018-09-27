@@ -1,11 +1,9 @@
 ##  Zsh general config ##
 
-
-
 # Include specialized configs
 
-source ~/.zsh/environment.zsh
-source ~/.zsh/history.zsh
+source ~/.zsh/environment.zsh		# Environment settings
+source ~/.zsh/history.zsh		# Keeping history settings
 
 source ~/.zsh/colors.zsh
 source ~/.zsh/setopts.zsh
