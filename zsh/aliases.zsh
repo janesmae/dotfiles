@@ -14,6 +14,8 @@ alias egrep="egrep --color=auto"
 alias df='df -h'		# disk free, in Gigabytes, not bytes
 alias du='du -h -c'		# disk usage, for a folder
 
+alias tr='gtr'			# Use gnu tr
+
 # Diff
 alias diff='icdiff'
 

@@ -14,6 +14,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Moving to romaintic versioning scheme
 - Zsh environment related settings now confirmed into one file
 - Zsh history is only kept for non-privileged user accounts
+- Zsh alias for GNU tr instead of BSD tr
 
 ### Deprecated
 - Soon-to-be removed feature
