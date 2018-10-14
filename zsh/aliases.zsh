@@ -41,7 +41,16 @@ case `uname` in
 		alias mute="osascript -e 'set volume output muted true'"
 
 		# Update system
-		alias update!="brew update;brew upgrade;brew cleanup;brew doctor;brew cask upgrade;mas upgrade"
+		function update!() {
+			brew update
+			brew upgrade
+			brew cleanup
+			brew doctor
+			brew cask upgrade
+			mas upgrade
+			gem update
+			pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+		} 
 
 		# todo.txt
 		# alias t=todo.sh
