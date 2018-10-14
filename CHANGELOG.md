@@ -11,11 +11,6 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
-- Moving to romaintic versioning scheme
-- Zsh environment related settings now confirmed into one file
-- Zsh history is only kept for non-privileged user accounts
-- Zsh alias for GNU tr instead of BSD tr
-- Zsh alias update! command is now a function and includes gem and pip updates
 
 ### Deprecated
 - Soon-to-be removed feature
@@ -28,6 +23,15 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.0.4] - 2018-10-14
+### Changed
+- Moving to romaintic versioning scheme
+- Zsh environment related settings now confirmed into one file
+- Zsh history is only kept for non-privileged user accounts
+- Zsh alias for GNU tr instead of BSD tr
+- Zsh alias update! command is now a function and includes gem and pip updates
 
 
 ## [v1.0.3] - 2018-09-26
