@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
 ## [Unreleased]
 ### Added
@@ -23,6 +23,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.0.4] - 2018-10-14
+### Changed
+- Moving to romaintic versioning scheme
+- Zsh environment related settings now confirmed into one file
+- Zsh history is only kept for non-privileged user accounts
+- Zsh alias for GNU tr instead of BSD tr
+- Zsh alias update! command is now a function and includes gem and pip updates
 
 
 ## [v1.0.3] - 2018-09-26

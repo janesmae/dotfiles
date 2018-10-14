@@ -1,6 +1,7 @@
 vim/bundle
 zsh/cache
 zsh/plugins
+zsh/.zsh_history
 irssi/logs
 ansible/tmp
 ssh/known_hosts

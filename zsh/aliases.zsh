@@ -14,6 +14,8 @@ alias egrep="egrep --color=auto"
 alias df='df -h'		# disk free, in Gigabytes, not bytes
 alias du='du -h -c'		# disk usage, for a folder
 
+alias tr='gtr'			# Use gnu tr
+
 # Diff
 alias diff='icdiff'
 
@@ -39,7 +41,16 @@ case `uname` in
 		alias mute="osascript -e 'set volume output muted true'"
 
 		# Update system
-		alias update!="brew update;brew upgrade;brew cleanup;brew doctor;brew cask upgrade;mas upgrade"
+		function update!() {
+			brew update
+			brew upgrade
+			brew cleanup
+			brew doctor
+			brew cask upgrade
+			mas upgrade
+			gem update
+			pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+		} 
 
 		# todo.txt
 		# alias t=todo.sh
