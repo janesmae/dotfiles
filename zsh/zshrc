@@ -18,16 +18,15 @@ source $ZPLUG_HOME/init.zsh
 ## Zsh addons 
 zplug 'zsh-users/zsh-autosuggestions'
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug 'zsh-users/zaw'
 ## Git addons
 zplug "k4rthik/git-cal", as:command
 
 # Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
+zplug check || zplug install
 
 # Load plugins and add them to $PATH
 zplug load
+
+# ZAW bind
+bindkey '^R' zaw-history
