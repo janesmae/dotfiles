@@ -2,31 +2,13 @@
 
 # Include specialized configs
 
-source ~/.zsh/environment.zsh		# Environment settings
-source ~/.zsh/history.zsh		# Keeping history settings
+source ${HOME}/.zsh/environment.zsh		# Settings for environment
+source ${HOME}/.zsh/history.zsh			# Settings for keeping a history
 
-source ~/.zsh/colors.zsh
-source ~/.zsh/setopts.zsh
-source ~/.zsh/prompt.zsh
-source ~/.zsh/completion.zsh
-source ~/.zsh/aliases.zsh
+source ${HOME}/.zsh/colors.zsh
+source ${HOME}/.zsh/setopts.zsh
+source ${HOME}/.zsh/prompt.zsh
+source ${HOME}/.zsh/completion.zsh
+source ${HOME}/.zsh/aliases.zsh
 
-# Zplug
-export ZPLUG_HOME=$HOME/.zsh/plugins/zplug
-source $ZPLUG_HOME/init.zsh
-
-## Zsh addons 
-zplug 'zsh-users/zsh-autosuggestions'
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug 'zsh-users/zaw'
-## Git addons
-zplug "k4rthik/git-cal", as:command
-
-# Install plugins if there are plugins that have not been installed
-zplug check || zplug install
-
-# Load plugins and add them to $PATH
-zplug load
-
-# ZAW bind
-bindkey '^R' zaw-history
+source ${HOME}/.zsh/plugins.zsh			# Settings for plugins
