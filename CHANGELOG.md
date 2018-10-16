@@ -11,6 +11,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
+- Switched zplug for zsh plugin management
 
 ### Deprecated
 - Soon-to-be removed feature
