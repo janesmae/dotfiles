@@ -11,10 +11,6 @@ source ~/.zsh/prompt.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/aliases.zsh
 
-# Zsh Plugins
-# test -e "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" && source "${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"                         # Auto Suggestions
-# test -e "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" && source "${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"         # Syntax highlighting
-
 # Zplug
 export ZPLUG_HOME=$HOME/.zsh/plugins/zplug
 source $ZPLUG_HOME/init.zsh
