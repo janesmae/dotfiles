@@ -8,6 +8,25 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [Unreleased]
 ### Added
 - New feature
+
+### Changed
+- Changes in existing functionality
+
+### Deprecated
+- Soon-to-be removed feature
+
+### Removed
+- Removed feature
+
+### Fixed
+- Bugfix
+
+### Security
+- Fixed vulnerability
+
+
+## [v1.1.0] - 2018-10-17
+### Added
 - Added zsh autosuggestions plugin (zplug)
 - Added zsh syntax-highlighting plugin (zplug)
 - Added zsh zaw plugin
@@ -17,22 +36,11 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Added zsh plugins for completion: zsh-completions, hub-zsh-comletion, zsh-curl-completion
 
 ### Changed
-- Changes in existing functionality
 - Switched zplug for zsh plugin management
 
-### Deprecated
-- Soon-to-be removed feature
-
 ### Removed
-- Removed feature
 - Removed zsh-syntax-highlighting and zsh-autosuggestions plugins (submodules)
 - Removed alias for todo.txt
-
-### Fixed
-- Bugfix
-
-### Security
-- Fixed vulnerability
 
 
 ## [v1.0.4] - 2018-10-14
