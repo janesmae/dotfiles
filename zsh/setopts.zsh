@@ -27,10 +27,10 @@ setopt auto_menu				# Completion menu on successive tab press. needs unsetop men
 setopt complete_in_word				# Completion from within a word
 unsetopt menu_complete				# Make auto_menu work
 
-# ===== Correction
+# Correction
 unsetopt correct_all				# Spelling correction for arguments
 setopt correct					# Spelling correction for commands
 
-# ===== Prompt
+# Prompt
 setopt prompt_subst				# Enable parameter expansion
 

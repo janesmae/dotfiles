@@ -25,6 +25,24 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Fixed vulnerability
 
 
+## [v1.1.0] - 2018-10-17
+### Added
+- Added zsh autosuggestions plugin (zplug)
+- Added zsh syntax-highlighting plugin (zplug)
+- Added zsh zaw plugin
+- Added zsh git-extra-commands plugin
+- Added zsh git-cal plugin
+- Added zsh colored-man-pages plugin
+- Added zsh plugins for completion: zsh-completions, hub-zsh-comletion, zsh-curl-completion
+
+### Changed
+- Switched zplug for zsh plugin management
+
+### Removed
+- Removed zsh-syntax-highlighting and zsh-autosuggestions plugins (submodules)
+- Removed alias for todo.txt
+
+
 ## [v1.0.4] - 2018-10-14
 ### Changed
 - Moving to romaintic versioning scheme
