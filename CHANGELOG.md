@@ -11,8 +11,9 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Added zsh autosuggestions plugin (zplug)
 - Added zsh syntax-highlighting plugin (zplug)
 - Added zsh zaw plugin
-- Added git-extra-commands plugin
-- Added git-cal plugin
+- Added zsh git-extra-commands plugin
+- Added zsh git-cal plugin
+- Added zsh colored-man-pages plugin
 
 ### Changed
 - Changes in existing functionality

@@ -11,6 +11,8 @@ zplug 'zsh-users/zaw'
 ## Git addons
 zplug 'unixorn/git-extra-commands', as:plugin
 zplug 'k4rthik/git-cal', as:command
+## Colors
+zplug 'ael-code/zsh-colored-man-pages'
 
 # Install plugins if there are plugins that have not been installed
 zplug check || zplug install
