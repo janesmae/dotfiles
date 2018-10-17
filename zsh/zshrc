@@ -6,7 +6,7 @@ source ${HOME}/.zsh/environment.zsh		# Settings for environment
 source ${HOME}/.zsh/history.zsh			# Settings for keeping a history
 source ${HOME}/.zsh/setopts.zsh			# Settings for zsh behaviour
 source ${HOME}/.zsh/zplug.zsh			# Load and init plugins
-# source ${HOME}/.zsh/colors.zsh
-# source ${HOME}/.zsh/prompt.zsh
+source ${HOME}/.zsh/colors.zsh
+source ${HOME}/.zsh/prompt.zsh
 source ${HOME}/.zsh/completion.zsh
 source ${HOME}/.zsh/aliases.zsh
