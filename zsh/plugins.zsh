@@ -16,6 +16,7 @@ zplug 'zsh-users/zaw'
 zplug 'zsh-users/zsh-completions'
 zplug 'glidenote/hub-zsh-completion'
 zplug 'Valodim/zsh-curl-completion'
+zplug 'nojanath/ansible-zsh-completion'
 
 ## Git addons
 zplug 'unixorn/git-extra-commands', as:plugin
