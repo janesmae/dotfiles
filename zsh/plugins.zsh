@@ -8,9 +8,11 @@ source $ZPLUG_HOME/init.zsh
 zplug 'zsh-users/zsh-autosuggestions'
 zplug 'zsh-users/zsh-syntax-highlighting', defer:2
 zplug 'zsh-users/zaw'
+
 ## Git addons
 zplug 'unixorn/git-extra-commands', as:plugin
 zplug 'k4rthik/git-cal', as:command
+
 ## Colors
 zplug 'ael-code/zsh-colored-man-pages'
 
