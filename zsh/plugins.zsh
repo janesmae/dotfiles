@@ -6,10 +6,11 @@ source $ZPLUG_HOME/init.zsh
 
 ## Zsh addons 
 zplug 'zsh-users/zsh-autosuggestions'
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug 'zsh-users/zsh-syntax-highlighting', defer:2
 zplug 'zsh-users/zaw'
 ## Git addons
-zplug "k4rthik/git-cal", as:command
+zplug 'unixorn/git-extra-commands', as:plugin
+zplug 'k4rthik/git-cal', as:command
 
 # Install plugins if there are plugins that have not been installed
 zplug check || zplug install
