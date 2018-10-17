@@ -14,6 +14,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Added zsh git-extra-commands plugin
 - Added zsh git-cal plugin
 - Added zsh colored-man-pages plugin
+- Added
 
 ### Changed
 - Changes in existing functionality
@@ -25,6 +26,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Removed
 - Removed feature
 - Removed zsh-syntax-highlighting and zsh-autosuggestions plugins (submodules)
+- Removed alias for todo.txt
 
 ### Fixed
 - Bugfix

@@ -13,11 +13,8 @@ alias egrep="egrep --color=auto"
 # Helpers
 alias df='df -h'		# disk free, in Gigabytes, not bytes
 alias du='du -h -c'		# disk usage, for a folder
-
 alias tr='gtr'			# Use gnu tr
-
-# Diff
-alias diff='icdiff'
+alias diff='icdiff'		# icdiff is better than diff
 
 # Start using Vim8
 alias vi=vim
@@ -51,9 +48,6 @@ case `uname` in
 			gem update
 			pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
 		} 
-
-		# todo.txt
-		# alias t=todo.sh
 
 	;;
 	Linux)
