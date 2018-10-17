@@ -8,6 +8,7 @@ source $ZPLUG_HOME/init.zsh
 zplug "zplug/zplug", hook-build:'zplug --self-manage'
 
 ## Zsh addons 
+zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
 zplug 'zsh-users/zsh-autosuggestions'
 zplug 'zsh-users/zsh-syntax-highlighting', defer:2
 zplug 'zsh-users/zaw'
@@ -21,7 +22,7 @@ zplug 'Valodim/zsh-curl-completion'
 zplug 'unixorn/git-extra-commands', as:plugin
 zplug 'k4rthik/git-cal', as:command
 
-## Colors
+## Themes and Colors
 zplug 'ael-code/zsh-colored-man-pages'
 
 # Install plugins if there are plugins that have not been installed
