@@ -14,7 +14,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Added zsh git-extra-commands plugin
 - Added zsh git-cal plugin
 - Added zsh colored-man-pages plugin
-- Added zsh plugins for completion: zsh-completions, hub-zsh-comletion, zsh-curl-completion, ansible-zsh-completion
+- Added zsh plugins for completion: zsh-completions, hub-zsh-comletion, zsh-curl-completion
 
 ### Changed
 - Changes in existing functionality
