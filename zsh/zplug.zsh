@@ -18,6 +18,9 @@ zplug 'zsh-users/zsh-completions'
 zplug 'glidenote/hub-zsh-completion'
 zplug 'Valodim/zsh-curl-completion'
 
+## Prompt 
+zplug 'cedi/meaningful-error-codes'
+
 ## Git addons
 zplug 'unixorn/git-extra-commands', as:plugin
 zplug 'k4rthik/git-cal', as:command
@@ -31,5 +34,10 @@ zplug check || zplug install
 # Load plugins and add them to $PATH
 zplug load
 
-# ZAW bind
+# ZAW config
 bindkey '^R' zaw-history
+zstyle ':filter-select' max-lines 10
+zstyle ':filter-select' case-insensitive yes
+zstyle ':filter-select' extended-search yes
+zstyle ':filter-select' hist-find-no-dups yes
+

@@ -8,9 +8,11 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [Unreleased]
 ### Added
 - New feature
+- Zsh - New plugin via zplug - cedi/meaningful-error-codes
 
 ### Changed
 - Changes in existing functionality
+- zsh/zaw - updated config
 
 ### Deprecated
 - Soon-to-be removed feature
