@@ -18,7 +18,8 @@ zplug 'zsh-users/zsh-completions'
 zplug 'glidenote/hub-zsh-completion'
 zplug 'Valodim/zsh-curl-completion'
 
-## Prompt 
+## Prompt
+zplug 'janesmae/j2nes'
 zplug 'cedi/meaningful-error-codes'
 
 ## Git addons
@@ -40,4 +41,3 @@ zstyle ':filter-select' max-lines 10
 zstyle ':filter-select' case-insensitive yes
 zstyle ':filter-select' extended-search yes
 zstyle ':filter-select' hist-find-no-dups yes
-
