@@ -19,7 +19,7 @@ zplug 'glidenote/hub-zsh-completion'
 zplug 'Valodim/zsh-curl-completion'
 
 ## Prompt
-zplug 'janesmae/j2nes'
+zplug 'janesmae/j2nes', as:theme
 zplug 'cedi/meaningful-error-codes'
 
 ## Git addons
