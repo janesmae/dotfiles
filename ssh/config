@@ -1,2 +1,4 @@
 Host *
     SendEnv LANG LC_*
+
+Include config.local/*
