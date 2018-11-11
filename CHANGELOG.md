@@ -9,6 +9,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Added
 - New feature
 - Zsh - New plugin via zplug - cedi/meaningful-error-codes
+- Zsh - New personal theme via zplug - janesmae/j2nes
 
 ### Changed
 - Changes in existing functionality
@@ -16,6 +17,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Deprecated
 - Soon-to-be removed feature
+- zsh - old prompt is now deprecated. Replacing with custom theme via  zplug.
 
 ### Removed
 - Removed feature
