@@ -20,10 +20,14 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Fixed
 - Bugfix
-- zsh - load janesmae/j2nes as a theme with zplug 
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.1.2] - 2018-11-11
+### Fixed
+- zsh - load janesmae/j2nes as a theme with zplug 
 
 
 ## [v1.1.1] - 2018-11-11
