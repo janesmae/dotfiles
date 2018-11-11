@@ -25,6 +25,19 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Fixed vulnerability
 
 
+## [v1.1.1] - 2018-11-11
+### Added
+- ssh - Local configs now in ~/ssh/config.local folder
+- zsh - New plugin via zplug - cedi/meaningful-error-codes
+- zsh - New personal theme via zplug - janesmae/j2nes
+
+### Changed
+- zaw - updated config
+
+### Deprecated
+- zsh - old prompt is now deprecated. Replacing with custom theme via  zplug.
+
+
 ## [v1.1.0] - 2018-10-17
 ### Added
 - Added zsh autosuggestions plugin (zplug)
