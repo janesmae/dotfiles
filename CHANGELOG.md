@@ -25,6 +25,15 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Fixed vulnerability
 
 
+## [v1.2.0] - 2019-01-19
+### Changed
+- Changed ansible configuration
+
+### Removed
+- Removed irssi configs
+- Removed todo.txt related configs
+
+
 ## [v1.1.2] - 2018-11-11
 ### Fixed
 - zsh - load janesmae/j2nes as a theme with zplug 
