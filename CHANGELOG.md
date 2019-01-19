@@ -11,6 +11,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
+- Updated ansible configuration
 
 ### Deprecated
 - Soon-to-be removed feature
