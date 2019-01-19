@@ -9,9 +9,11 @@ zplug "zplug/zplug", hook-build:'zplug --self-manage'
 
 ## Zsh addons 
 zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
-zplug 'zsh-users/zsh-autosuggestions'
-zplug 'zsh-users/zsh-syntax-highlighting', defer:2
-zplug 'zsh-users/zaw'
+zplug 'zsh-users/zsh-autosuggestions'					# Fish-like autosuggestions for zsh
+zplug 'zsh-users/zsh-syntax-highlighting', defer:2			# Fish shell like syntax highlighting for Zsh.
+zplug 'zsh-users/zaw'							# zsh anything.el-like widget
+
+zplug 'supercrabtree/k'							# Directory listings for zsh with git features
 
 ## Completion
 zplug 'zsh-users/zsh-completions'

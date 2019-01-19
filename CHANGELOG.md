@@ -8,6 +8,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [Unreleased]
 ### Added
 - New feature
+- Added k under zplug, directory listings for zsh with git features
 
 ### Changed
 - Changes in existing functionality
