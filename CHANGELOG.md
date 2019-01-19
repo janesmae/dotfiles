@@ -11,14 +11,15 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
-- Ansible configuration
+- Changed ansible configuration
 
 ### Deprecated
 - Soon-to-be removed feature
 
 ### Removed
 - Removed feature
-- Irssi configs
+- Removed irssi configs
+- Removed todo.txt related configs
 
 ### Fixed
 - Bugfix
