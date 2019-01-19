@@ -8,7 +8,6 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [Unreleased]
 ### Added
 - New feature
-- Added k under zplug, directory listings for zsh with git features
 
 ### Changed
 - Changes in existing functionality
@@ -24,6 +23,11 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.2.1] - 2019-01-19
+### Added
+- Added k under zplug, directory listings for zsh with git features
 
 
 ## [v1.2.0] - 2019-01-19
