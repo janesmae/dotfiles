@@ -11,21 +11,27 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
-- Changed ansible configuration
 
 ### Deprecated
 - Soon-to-be removed feature
 
 ### Removed
 - Removed feature
-- Removed irssi configs
-- Removed todo.txt related configs
 
 ### Fixed
 - Bugfix
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.2.0] - 2019-01-19
+### Changed
+- Changed ansible configuration
+
+### Removed
+- Removed irssi configs
+- Removed todo.txt related configs
 
 
 ## [v1.1.2] - 2018-11-11
