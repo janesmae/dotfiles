@@ -11,7 +11,6 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Changed
 - Changes in existing functionality
-- Updated ansible configuration
 
 ### Deprecated
 - Soon-to-be removed feature
@@ -24,6 +23,14 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ### Security
 - Fixed vulnerability
+
+
+## [v1.2.2] - 2019-02-11
+### Changed
+- Updated ansible configuration
+- Updated zsh aliases update! method
+  - Comment out mas and gem updates
+  - Change from pip to pip3 as python2 is going to be deprecated really soon
 
 
 ## [v1.2.1] - 2019-01-19
