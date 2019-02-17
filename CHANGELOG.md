@@ -12,6 +12,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Changed
 - Changes in existing functionality
 - Update ansible configuration
+- Add authorized_keys info ssh folder
 
 ### Deprecated
 - Soon-to-be removed feature
