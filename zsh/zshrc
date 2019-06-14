@@ -9,3 +9,6 @@ source ${HOME}/.zsh/zplug.zsh			# Load and init plugins
 source ${HOME}/.zsh/colors.zsh
 source ${HOME}/.zsh/completion.zsh
 source ${HOME}/.zsh/aliases.zsh
+
+# Make sure all homebrew executables can be run
+export PATH="/usr/local/sbin:$PATH"
