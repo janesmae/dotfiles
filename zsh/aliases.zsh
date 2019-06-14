@@ -23,6 +23,9 @@ alias view=view -M		# Use view as unmodifiable
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
 
+# Use gopass instead of pass
+alias pass=gopass
+
 # OS specific configurations
 case `uname` in
 	Darwin)
