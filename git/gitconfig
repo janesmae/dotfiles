@@ -47,7 +47,7 @@
 	followTags = true
 
 [pull]
-	rebase = preserve
+	rebase = merges			# "preserve" option is deprecated in favor of "merges" - https://github.com/git/git/commit/fa1b86e45743fd5895c33adcd3769782e608bb40
 
 [merge]
 	renormalize = true
