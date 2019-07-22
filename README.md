@@ -1,6 +1,6 @@
 # Dotfiles
 
-These are my .files including vim, zsh, git, and tmux configurations. Check out [install][install] branch for the installer script and installation guide.
+These are my .files including vim, zsh, git, and tmux configurations. Check out [laptop][laptop] project for the installer script and installation guide.
 
 Feel free to use it and even make suggestions, however I may decline changes if there's no value to me.
 
@@ -33,6 +33,6 @@ You can find a copy of this license in [LICENSE][license] file or [https://opens
 [license]:        ./LICENSE
 [license_web]:    https://opensource.org/licenses/MIT
 [changelog]:      ./CHANGELOG.md
-[install]:        https://github.com/janesmae/dotfiles/tree/install
+[laptop]:         https://github.com/janesmae/laptop
 [issue]:          https://github.com/janesmae/dotfiles/issues/new/choose
 [fork]:           https://github.com/janesmae/dotfiles/fork
