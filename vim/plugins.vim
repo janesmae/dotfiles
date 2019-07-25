@@ -12,6 +12,7 @@ Plugin 'vitalk/vim-simple-todo'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'rking/ag.vim'
+Plugin 'dhruvasagar/vim-table-mode'
 
 call vundle#end()
 filetype plugin indent on
