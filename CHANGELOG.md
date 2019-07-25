@@ -9,6 +9,9 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Added
 - Added vim-table-mode plugin to vim
 
+### Changed
+- Updated zplug submodule
+
 
 ## [v1.2.4] - 2019-06-23
 ### Changed
