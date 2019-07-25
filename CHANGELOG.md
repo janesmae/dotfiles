@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
-## [v1.2.5] - Unreleased
+## [v1.2.5] - 2019-07-25
 ### Added
 - Added vim-table-mode plugin to vim
 
