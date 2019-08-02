@@ -15,6 +15,8 @@ zplug 'zsh-users/zaw'							# zsh anything.el-like widget
 
 zplug 'supercrabtree/k'							# Directory listings for zsh with git features
 
+zplug 'Tarrasch/zsh-autoenv'						# handles "enter" and leave" events, nesting, and stashing of variables (overwriting and restoring).
+
 ## Completion
 zplug 'zsh-users/zsh-completions'
 zplug 'glidenote/hub-zsh-completion'

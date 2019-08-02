@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
 ## [v1.3.0] - Unreleased
+### Added
+- Autoenv for Zsh via zplug
+
 ### Removed
 - Deprecated propmt.zsh since using janesmae/j2nes as theme
 
