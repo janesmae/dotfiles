@@ -7,6 +7,11 @@ umask 022
 export PATH=$PATH:$HOME/.bin
 export EDITOR=vim
 
+# Include autoenv global environment settings
+export AUTOENV_FILE_ENTER=.autoenv
+export AUTOENV_FILE_LEAVE=.autoenv
+export AUTOENV_HANDLE_LEAVE=1
+
 # Fix language issue
 
 if [[ -z "$LC_ALL" ]]; then
