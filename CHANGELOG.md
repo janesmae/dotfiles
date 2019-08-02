@@ -8,6 +8,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [v1.3.0] - Unreleased
 ### Added
 - Autoenv for Zsh via zplug
+- rupa/z via zplug
 
 ### Removed
 - Deprecated propmt.zsh since using janesmae/j2nes as theme
