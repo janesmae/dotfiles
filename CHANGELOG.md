@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
+## [v1.3.2] - 2019-08-08
+### Added
+- New filetypes config in vim for yaml, json and jade files
+- Setting to allow write then not running vim with sudo
+
 
 ## [v1.3.1] - 2019-08-02
 ### Added
