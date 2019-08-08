@@ -47,7 +47,9 @@ set mouse=a					" Make mouse usable
 
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<Esc>	" <esc><esc> clears search highlights
 
-cmap w!! w !sudo tee > /dev/null %		" Allow saving when not using vim in sudo mode
+" Allow saving when not using vim in sudo mode
+
+cmap w!! w !sudo tee > /dev/null %
 
 " Invisible characters
 
