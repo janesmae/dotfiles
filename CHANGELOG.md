@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
+
+## [v1.3.3] - Unreleased
+### Changed
+- gpg signature in gitconfig
+
+
 ## [v1.3.2] - 2019-08-08
 ### Added
 - New filetypes config in vim for yaml, json and jade files
