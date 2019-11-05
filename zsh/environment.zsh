@@ -4,7 +4,7 @@
 umask 022
 
 # Include Environment variables
-export PATH=$PATH:$HOME/.bin
+export PATH=$PATH:$HOME/bin
 export EDITOR=vim
 
 # Include autoenv global environment settings
