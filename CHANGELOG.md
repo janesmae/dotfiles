@@ -9,6 +9,8 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [v1.3.3] - Unreleased
 ### Changed
 - gpg signature in gitconfig
+- Changed user binary folder from $HOME/.bin to $HOME/bin
+- Updated vundle submodule
 
 
 ## [v1.3.2] - 2019-08-08
