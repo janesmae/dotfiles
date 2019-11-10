@@ -6,11 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
 
-## [v1.3.3] - Unreleased
+## [v1.3.3] - 2019-11-10
 ### Changed
 - gpg signature in gitconfig
 - Changed user binary folder from $HOME/.bin to $HOME/bin
 - Updated vundle submodule
+- Fix strange gpg issue
 
 
 ## [v1.3.2] - 2019-08-08

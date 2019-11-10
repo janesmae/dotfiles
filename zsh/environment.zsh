@@ -17,3 +17,6 @@ export AUTOENV_HANDLE_LEAVE=1
 if [[ -z "$LC_ALL" ]]; then
         export LC_ALL='en_US.UTF-8'
 fi
+
+# Fix a strange gpg issue
+export GPG_TTY=$(tty)
