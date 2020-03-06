@@ -20,3 +20,6 @@ fi
 
 # Fix a strange gpg issue
 export GPG_TTY=$(tty)
+
+# Start using Sekey
+export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
