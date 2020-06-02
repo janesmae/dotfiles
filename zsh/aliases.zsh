@@ -32,7 +32,7 @@ case `uname` in
 		# OS X
 
 		# Fix list files
-		alias ls="gls -lphH --color=auto"
+		alias ls="gls -lphH --color=auto --time-style=long-iso"
 
 		# Macos dns flush
 		alias dns_flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
