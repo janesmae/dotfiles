@@ -5,10 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
-## [Unreleased]
+## [1.3.4]
 ### Added
 - ssh config additions related to using sekey
 - zsh config additions related to using sekey
+- Calling brew cask upgrade is deprecated! Useing brew upgrade --cask instead.
 
 ## [v1.3.3] - 2019-11-10
 ### Changed
