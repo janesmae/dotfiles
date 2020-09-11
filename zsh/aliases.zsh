@@ -46,7 +46,7 @@ case `uname` in
 			brew upgrade
 			brew cleanup
 			brew doctor
-			brew cask upgrade
+			brew upgrade --cask
 			# mas upgrade
 			# gem update
 			pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
