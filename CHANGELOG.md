@@ -7,9 +7,11 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 
 ## [1.3.5 - Unreleased]
-### Fixed
-- Update sekey to optional
+### Added
+- .idea to global gitignore
 
+### Fixed
+- Update sekey usage in zsh to optional
 
 ## [1.3.4]
 ### Added
