@@ -11,6 +11,9 @@ Desktop.ini
 .Spotlight-V100
 .Trashes
 
+## IDEs
+.idea
+
 ## Programming languages ##
 
 # Compiled Python files
