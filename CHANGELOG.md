@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
+
+## [1.3.5 - Unreleased]
+### Fixed
+- Update sekey to optional
+
+
 ## [1.3.4]
 ### Added
 - ssh config additions related to using sekey
@@ -84,7 +90,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ## [v1.1.2] - 2018-11-11
 ### Fixed
-- zsh - load janesmae/j2nes as a theme with zplug 
+- zsh - load janesmae/j2nes as a theme with zplug
 
 
 ## [v1.1.1] - 2018-11-11
