@@ -1,0 +1,17 @@
+## Index keybindings
+
+macro index <up> <previous-entry>
+macro index <down> <next-entry>
+macro index <tab> <next-unread><enter>
+
+# Pager keybindings
+
+macro pager <left>      <previous-entry>
+macro pager <right>     <next-entry>
+macro pager <up>        <previous-line>
+macro pager <down>      <next-line>
+
+## Editor keybindings
+
+bind editor <space>     noop
+bind editor <Tab>       complete-query
