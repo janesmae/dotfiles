@@ -1,0 +1,4 @@
+## Cache
+
+set header_cache                    = ~/.mutt/cache/personal-headercache
+set message_cachedir                = ~/.mutt/cache/personal-messagecache

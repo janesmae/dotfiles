@@ -1,0 +1,10 @@
+## Usability
+
+set delete                          = yes                                       # No confirmation!
+set quit                            = yes                                       # No confirmation!
+unset collapse_unread                                                           # Don't collapse unread threads
+
+source ~/.mutt/options_reading;
+source ~/.mutt/options_sidebar
+source ~/.mutt/options_keybindings
+source ~/.mutt/options_cache

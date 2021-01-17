@@ -1,0 +1,4 @@
+## Sidebar
+
+set sidebar_visible = no                                                        # Starting with sidebar not visible
+set sidebar_width = 30                                                          # Sidebad width

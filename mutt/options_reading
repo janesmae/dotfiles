@@ -1,0 +1,22 @@
+## Reading options
+
+set menu_scroll                                                                 # Scroll in menus
+set pager_index_lines = 10                                                      # Show up to 10 rows of messages on top
+set pager_context = 5                                                           # Show 5 lines on context
+set pager_stop                                                                  # Stop automatic message changes
+set smart_wrap                                                                  # Wrap lines at a word boundary
+set tilde                                                                       # Pad blank lines in them bottom with ~
+unset mark_old                                                                  # Don't mark unread messages as old
+unset markers                                                                   # Remove the plus signs from wrapped lines
+
+## Display only selected headers
+
+ignore *                                                                        # ignore all headers
+unignore from: to: cc: date: subject:                                           # show only these
+hdr_order from: to: cc: date: subject:                                          # and in this order
+
+## Sorting
+
+set sort = threads
+set sort_aux = reverse-last-date-received
+set sort_re                                                                     # thread based on reply_regexp
