@@ -1,5 +1,2 @@
-Host *
-    SendEnv LANG LC_*
-
 IdentityAgent ~/.sekey/ssh-agent.ssh
 Include config.local/*
