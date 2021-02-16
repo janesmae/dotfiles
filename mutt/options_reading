@@ -1,3 +1,7 @@
+## Default view
+
+auto_view text/html
+
 ## Reading options
 
 set menu_scroll                                                                 # Scroll in menus
@@ -11,12 +15,18 @@ unset markers                                                                   
 
 ## Display only selected headers
 
-ignore *                                                                        # ignore all headers
-unignore from: to: cc: date: subject:                                           # show only these
-hdr_order from: to: cc: date: subject:                                          # and in this order
+ignore *                                                                        # Ignore all headers
+unignore from: to: cc: date: subject:                                           # Show only selected headers
+hdr_order from: to: cc: date: subject:                                          # In peticular order
 
 ## Sorting
 
-set sort = threads
-set sort_aux = reverse-last-date-received
-set sort_re                                                                     # thread based on reply_regexp
+set sort = threads                                                              # Sort by threads
+set sort_aux = reverse-last-date-received                                       # In reverse last date order
+set sort_re                                                                     # Thread based on reply_regexp
+
+## Usability
+
+set delete                          = yes                                       # No confirmation!
+set quit                            = yes                                       # No confirmation!
+unset collapse_unread                                                           # Don't collapse unread threads

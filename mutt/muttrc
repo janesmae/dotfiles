@@ -1,8 +1,8 @@
-## Usability
+## Sync and check intervals
 
-set delete                          = yes                                       # No confirmation!
-set quit                            = yes                                       # No confirmation!
-unset collapse_unread                                                           # Don't collapse unread threads
+set read_inc = 100
+set mail_check = 90
+set timeout = 15
 
 source ~/.mutt/options_reading;
 source ~/.mutt/options_sidebar

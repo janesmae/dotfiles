@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
 
-## [1.3.5] -2021-01-17
+## [1.3.6] - 2021-02-16
+### Changed
+- Update ssh config
+- Update mutt config
+
+## [1.3.5] - 2021-01-17
 ### Added
 - .idea to global gitignore
 - initial mutt config
