@@ -9,6 +9,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [1.3.6] - Unreleased
 ### Changed
 - Update ssh config
+- Update mutt config
 
 ## [1.3.5] - 2021-01-17
 ### Added
