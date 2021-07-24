@@ -7,16 +7,16 @@ source $ZPLUG_HOME/init.zsh
 ## Zplug self manage
 zplug "zplug/zplug", hook-build:'zplug --self-manage'
 
-## Zsh addons 
+## Zsh addons
 zplug "mafredri/zsh-async", from:"github", use:"async.zsh"
-zplug 'zsh-users/zsh-autosuggestions'					# Fish-like autosuggestions for zsh
-zplug 'zsh-users/zsh-syntax-highlighting', defer:2			# Fish shell like syntax highlighting for Zsh.
-zplug 'zsh-users/zaw'							# zsh anything.el-like widget
+zplug 'zsh-users/zsh-autosuggestions'					                                  # Fish-like autosuggestions for zsh
+zplug 'zsh-users/zsh-syntax-highlighting', defer:2			                        # Fish shell like syntax highlighting for Zsh.
+zplug 'zsh-users/zaw'							                                              # zsh anything.el-like widget
 
-zplug "rupa/z", use:z.sh						# Make it easier to cd into "frecent" directories.
-zplug 'supercrabtree/k'							# Directory listings for zsh with git features
+zplug "rupa/z", use:z.sh						                                            # Make it easier to cd into "frecent" directories.
+zplug 'supercrabtree/k'							                                            # Directory listings for zsh with git features
 
-zplug 'Tarrasch/zsh-autoenv'						# Handles "enter" and leave" events, nesting, and stashing of variables (overwriting and restoring).
+zplug 'Tarrasch/zsh-autoenv'						                                        # Handles "enter" and leave" events, nesting, and stashing of variables (overwriting and restoring).
 
 ## Completion
 zplug 'zsh-users/zsh-completions'
