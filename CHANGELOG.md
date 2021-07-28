@@ -8,6 +8,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [1.3.7] - Unreleased
 ### Changed
 - Fix sekey issued in zsh conf
+- Update ansible config to the latest
 
 ## [1.3.6] - 2021-02-16
 ### Changed
