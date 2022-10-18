@@ -25,6 +25,3 @@ export GPG_TTY=$(tty)
 #if [[ -S $HOME/.sekey/ssh-agent.ssh ]]; then
 #  export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
 #fi
-
-# Load K8S completion
-source <(kubectl completion zsh)
