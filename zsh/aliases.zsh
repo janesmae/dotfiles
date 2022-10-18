@@ -23,9 +23,6 @@ alias view=view -M		# Use view as unmodifiable
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
 
-# Use gopass instead of pass
-alias pass=gopass
-
 # OS specific configurations
 case `uname` in
 	Darwin)
@@ -50,12 +47,12 @@ case `uname` in
 			# mas upgrade
 			# gem update
 			pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
-		} 
+		}
 
 	;;
 	Linux)
 		# Linux
-		
+
 		# Fix list files
 		alias ls="ls -lphH --color=auto"
 
