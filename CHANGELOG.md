@@ -6,9 +6,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2015/03/14/semantic-versioning-vs-romantic-versioning/).
 
 ## [1.3.7] - Unreleased
+### Added
+- Added dotnet and k8s completions
+
 ### Changed
-- Fix sekey issued in zsh conf
+- Fix sekey issues in zsh conf
 - Update ansible config to the latest
+- changes to loading homebrew commands
+- temporary disable the usage of sekey
+
+### Removed
+- gopass as this is not used anymore
 
 ## [1.3.6] - 2021-02-16
 ### Changed
