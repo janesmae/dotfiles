@@ -22,6 +22,6 @@ fi
 export GPG_TTY=$(tty)
 
 # Start using Sekey
-if [[ -S $HOME/.sekey/ssh-agent.ssh ]]; then
-  export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
-fi
+#if [[ -S $HOME/.sekey/ssh-agent.ssh ]]; then
+#  export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
+#fi
