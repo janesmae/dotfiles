@@ -1,4 +1,7 @@
 ansible/tmp
+ansible/collections
+ansible/galaxy_cache
+ansible/galaxy_token
 ssh/config.local
 ssh/known_hosts
 vim/bundle
