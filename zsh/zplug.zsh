@@ -34,6 +34,9 @@ zplug 'k4rthik/git-cal', as:command
 ## Themes and Colors
 zplug 'ael-code/zsh-colored-man-pages'
 
+## dotnet
+zplug "memark/zsh-dotnet-completion", defer:2
+
 # Install plugins if there are plugins that have not been installed
 zplug check || zplug install
 
