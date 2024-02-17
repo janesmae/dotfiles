@@ -9,6 +9,10 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Changed
 - TBD
 
+## [1.3.9] - Unreleased
+### Changed
+- Bugfixes, make dotfiles better on linux
+
 ## [1.3.8] - 2022-10-18
 ### Changed
 - Bugfix release
