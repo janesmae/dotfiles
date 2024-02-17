@@ -55,4 +55,7 @@ zstyle ':completion:*:ssh:*' group-order hosts-domain hosts-host users hosts-ipa
 zstyle '*' single-ignored show
 
 # Load K8S completion
-source <(kubectl completion zsh)
+
+if _k="$(type -p kubectl)" || [[ -f $_k ]]; then
+	source <(kubectl completion zsh)
+fi
