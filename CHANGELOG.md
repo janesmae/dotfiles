@@ -9,9 +9,12 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ### Changed
 - TBD
 
-## [1.3.10] - Unreleased
+## [1.3.10] - 2024-11-04
+### Added
+- ssh-agent zplug module
 ### Changed
-- TBD
+- Updated submodules
+- Fixing tmux styles
 
 ## [1.3.9] - 2024-09-23
 ### Changed

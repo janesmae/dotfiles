@@ -31,6 +31,9 @@ zplug 'cedi/meaningful-error-codes'
 zplug 'unixorn/git-extra-commands', as:plugin
 zplug 'k4rthik/git-cal', as:command
 
+## ssh-agent
+zplug 'bobsoppe/zsh-ssh-agent', use:ssh-agent.zsh, from:github
+
 ## Themes and Colors
 zplug 'ael-code/zsh-colored-man-pages'
 
