@@ -14,6 +14,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - ssh-agent zplug module
 ### Changed
 - Updated submodules
+- Fixing tmux styles
 
 ## [1.3.9] - 2024-09-23
 ### Changed
