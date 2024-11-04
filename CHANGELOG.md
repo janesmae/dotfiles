@@ -10,6 +10,8 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - TBD
 
 ## [1.3.10] - Unreleased
+### Added
+- ssh-agent zplug module
 ### Changed
 - TBD
 
